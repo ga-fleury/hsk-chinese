@@ -16,13 +16,20 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gafleury.hskchinese"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
       "baseUrl": "/hsk-chinese"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bfd7e995-48c3-4316-8d31-046ef885f936"
+      }
+    },
+    "owner": "gafleurys-team"
   }
 }
