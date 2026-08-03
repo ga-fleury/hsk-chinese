@@ -31,4 +31,6 @@ export interface AppState {
   settings: Settings;
   /** How many new Words were introduced on `date` (resets daily). */
   introduced: { date: string; count: number };
+  /** Seed for the randomized (but stable) order in which new Words are introduced. */
+  shuffleSeed: number;
 }

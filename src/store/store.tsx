@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import React, { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { WORDS } from '../data/words';
 import { isDue, newProgress, review, todayString } from '../srs/sm2';
 import type { AppState, Grade } from '../types';
@@ -11,7 +11,10 @@ const DEFAULT_STATE: AppState = {
   quizStats: { answered: 0, correct: 0 },
   settings: { newPerDay: 10 },
   introduced: { date: todayString(), count: 0 },
+  shuffleSeed: 0,
 };
+
+const randomSeed = () => Math.floor(Math.random() * 0x7fffffff) + 1;
 
 interface Store {
   state: AppState;
@@ -31,33 +34,27 @@ const StoreContext = createContext<Store | null>(null);
 export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<AppState>(DEFAULT_STATE);
   const [loaded, setLoaded] = useState(false);
-  const skipSave = useRef(true);
 
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY)
       .then((json) => {
-        if (json) {
-          const saved = JSON.parse(json) as AppState;
-          setState({
-            ...DEFAULT_STATE,
-            ...saved,
-            introduced:
-              saved.introduced?.date === todayString()
-                ? saved.introduced
-                : { date: todayString(), count: 0 },
-          });
-        }
+        const saved = json ? (JSON.parse(json) as Partial<AppState>) : null;
+        setState({
+          ...DEFAULT_STATE,
+          ...saved,
+          shuffleSeed: saved?.shuffleSeed || randomSeed(),
+          introduced:
+            saved?.introduced?.date === todayString()
+              ? saved.introduced
+              : { date: todayString(), count: 0 },
+        });
       })
-      .catch(() => {})
+      .catch(() => setState((s) => ({ ...s, shuffleSeed: randomSeed() })))
       .finally(() => setLoaded(true));
   }, []);
 
   useEffect(() => {
     if (!loaded) return;
-    if (skipSave.current) {
-      skipSave.current = false;
-      return;
-    }
     AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state)).catch(() => {});
   }, [state, loaded]);
 
@@ -68,7 +65,11 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     }).map((w) => w.id);
 
     const remainingNew = Math.max(0, state.settings.newPerDay - state.introduced.count);
+    // Stable pseudo-random introduction order: multiplicative hash keyed by the
+    // stored seed, so unseen Words keep a fixed shuffled queue across sessions.
+    const introOrder = (id: number) => (((id + 1) * 2654435761) ^ state.shuffleSeed) >>> 0;
     const newIds = WORDS.filter((w) => !state.progress[w.id])
+      .sort((a, b) => introOrder(a.id) - introOrder(b.id))
       .slice(0, remainingNew)
       .map((w) => w.id);
 
@@ -100,7 +101,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
         })),
       setNewPerDay: (n) =>
         setState((s) => ({ ...s, settings: { ...s.settings, newPerDay: n } })),
-      resetProgress: () => setState({ ...DEFAULT_STATE, introduced: { date: todayString(), count: 0 } }),
+      resetProgress: () =>
+        setState({
+          ...DEFAULT_STATE,
+          introduced: { date: todayString(), count: 0 },
+          shuffleSeed: randomSeed(),
+        }),
     };
   }, [state, loaded]);
 
