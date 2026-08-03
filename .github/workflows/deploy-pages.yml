@@ -1,0 +1,42 @@
+name: Deploy web build to GitHub Pages
+
+on:
+  push:
+    branches: [main, claude/hsk1-chinese-learning-app-31q826]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx expo export --platform web
+      - name: Copy PWA assets and inject tags
+        run: |
+          cp -f public/manifest.json public/icon.png dist/
+          sed -i 's#<title>#<link rel="manifest" href="/hsk-chinese/manifest.json"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-title" content="HSK Chinese"/><link rel="apple-touch-icon" href="/hsk-chinese/icon.png"/><title>#' dist/index.html
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

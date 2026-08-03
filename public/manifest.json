@@ -1,0 +1,16 @@
+{
+  "name": "HSK Chinese",
+  "short_name": "HSK 1",
+  "start_url": "/hsk-chinese/",
+  "scope": "/hsk-chinese/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
+  "icons": [
+    {
+      "src": "/hsk-chinese/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
