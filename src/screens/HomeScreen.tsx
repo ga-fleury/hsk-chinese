@@ -1,5 +1,5 @@
-import React from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { WORDS } from '../data/words';
 import { isKnown } from '../srs/sm2';
 import { useStore } from '../store/store';
@@ -16,6 +16,27 @@ function Stat({ label, value, tint }: { label: string; value: string | number; t
 
 export default function HomeScreen({ onStartReview }: { onStartReview: () => void }) {
   const { state, dueIds, newIds, setNewPerDay, resetProgress } = useStore();
+
+  // Alert.alert is a no-op on react-native-web, so confirm with a second tap instead.
+  const [confirmingReset, setConfirmingReset] = useState(false);
+  const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(
+    () => () => {
+      if (resetTimer.current) clearTimeout(resetTimer.current);
+    },
+    [],
+  );
+
+  const onResetPress = () => {
+    if (!confirmingReset) {
+      setConfirmingReset(true);
+      resetTimer.current = setTimeout(() => setConfirmingReset(false), 4000);
+      return;
+    }
+    if (resetTimer.current) clearTimeout(resetTimer.current);
+    setConfirmingReset(false);
+    resetProgress();
+  };
 
   const started = Object.keys(state.progress).length;
   const known = Object.values(state.progress).filter(isKnown).length;
@@ -70,16 +91,10 @@ export default function HomeScreen({ onStartReview }: { onStartReview: () => voi
         </View>
       </View>
 
-      <Pressable
-        style={styles.reset}
-        onPress={() =>
-          Alert.alert('Reset progress?', 'All scheduling state and quiz stats will be erased.', [
-            { text: 'Cancel', style: 'cancel' },
-            { text: 'Reset', style: 'destructive', onPress: resetProgress },
-          ])
-        }
-      >
-        <Text style={styles.resetText}>Reset all progress</Text>
+      <Pressable style={[styles.reset, confirmingReset && styles.resetConfirming]} onPress={onResetPress}>
+        <Text style={[styles.resetText, confirmingReset && styles.resetTextConfirming]}>
+          {confirmingReset ? 'Tap again to erase all progress' : 'Reset all progress'}
+        </Text>
       </Pressable>
     </ScrollView>
   );
@@ -131,6 +146,8 @@ const styles = StyleSheet.create({
   },
   stepBtnText: { fontSize: 20, color: colors.ink, lineHeight: 24 },
   stepValue: { fontSize: 18, fontWeight: '700', color: colors.ink, minWidth: 28, textAlign: 'center' },
-  reset: { marginTop: 32, alignItems: 'center' },
+  reset: { marginTop: 32, alignItems: 'center', paddingVertical: 10, borderRadius: 12 },
+  resetConfirming: { backgroundColor: colors.accentSoft },
   resetText: { color: colors.wrong, fontSize: 14 },
+  resetTextConfirming: { fontWeight: '700' },
 });
