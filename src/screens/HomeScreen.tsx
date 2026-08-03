@@ -77,14 +77,20 @@ export default function HomeScreen({ onStartReview }: { onStartReview: () => voi
         <View style={styles.stepper}>
           <Pressable
             style={styles.stepBtn}
-            onPress={() => setNewPerDay(Math.max(0, state.settings.newPerDay - 5))}
+            onPress={() => {
+              const n = state.settings.newPerDay;
+              setNewPerDay(n > 50 ? n - 25 : Math.max(0, n - 5));
+            }}
           >
             <Text style={styles.stepBtnText}>−</Text>
           </Pressable>
           <Text style={styles.stepValue}>{state.settings.newPerDay}</Text>
           <Pressable
             style={styles.stepBtn}
-            onPress={() => setNewPerDay(Math.min(50, state.settings.newPerDay + 5))}
+            onPress={() => {
+              const n = state.settings.newPerDay;
+              setNewPerDay(Math.min(200, n >= 50 ? n + 25 : n + 5));
+            }}
           >
             <Text style={styles.stepBtnText}>+</Text>
           </Pressable>
