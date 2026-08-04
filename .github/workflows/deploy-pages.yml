@@ -30,7 +30,7 @@ jobs:
       - run: npx expo export --platform web
       - name: Copy PWA assets and inject tags
         run: |
-          cp -f public/manifest.json public/icon.png dist/
+          cp -f public/manifest.json public/icon.png public/icon-maskable.png dist/
           sed -i 's#<title>#<link rel="manifest" href="/hsk-chinese/manifest.json"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-title" content="HSK Chinese"/><link rel="apple-touch-icon" href="/hsk-chinese/icon.png"/><title>#' dist/index.html
       - uses: actions/configure-pages@v5
         with:

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; background: transparent; }
+  .stage { width: 1024px; height: 1024px; display: grid; place-items: center; }
+
+  /* Full icon: cinnabar seal with a cream glyph */
+  .seal {
+    width: 1024px; height: 1024px;
+    background: linear-gradient(150deg, #C8422F 0%, #B5352492 45%, #9E2C1F 100%), #C0392B;
+    display: grid; place-items: center;
+    position: relative;
+  }
+  /* Inset far enough to survive the iOS squircle mask, radius echoing it. */
+  .seal::after {
+    content: '';
+    position: absolute;
+    inset: 104px;
+    border: 11px solid rgba(250, 247, 242, 0.78);
+    border-radius: 104px;
+  }
+  .glyph {
+    font-family: 'WenQuanYi Zen Hei';
+    color: #FAF7F2;
+    font-size: 500px;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+    transform: translateY(-4px);
+  }
+
+  /* Android adaptive foreground / monochrome: glyph only, inside the safe zone */
+  .bare { font-size: 470px; }
+  .bare-red { color: #C0392B; }
+  .bare-mono { color: #FFFFFF; }
+
+  .flat { width: 1024px; height: 1024px; background: #C0392B; }
+</style>
+</head>
+<body>
+  <div class="stage" id="stage"></div>
+  <script>
+    const mode = new URLSearchParams(location.search).get('mode') || 'icon';
+    const stage = document.getElementById('stage');
+    const glyph = '汉';
+    if (mode === 'icon') {
+      stage.innerHTML = `<div class="seal"><div class="glyph">${glyph}</div></div>`;
+    } else if (mode === 'foreground') {
+      stage.innerHTML = `<div class="glyph bare">${glyph}</div>`;
+    } else if (mode === 'monochrome') {
+      stage.innerHTML = `<div class="glyph bare bare-mono">${glyph}</div>`;
+    } else if (mode === 'background') {
+      stage.innerHTML = `<div class="flat"></div>`;
+    } else if (mode === 'maskable') {
+      // No frame: survives any mask shape, glyph inside the 80% safe zone.
+      stage.innerHTML = `<div class="flat" style="display:grid;place-items:center"><div class="glyph bare">${glyph}</div></div>`;
+    } else if (mode === 'splash') {
+      stage.innerHTML = `<div class="glyph bare bare-red">${glyph}</div>`;
+    }
+  </script>
+</body>
+</html>

@@ -5,12 +5,19 @@
   "scope": "/hsk-chinese/",
   "display": "standalone",
   "background_color": "#FAF7F2",
-  "theme_color": "#FAF7F2",
+  "theme_color": "#C0392B",
   "icons": [
     {
       "src": "/hsk-chinese/icon.png",
       "sizes": "1024x1024",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/hsk-chinese/icon-maskable.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
