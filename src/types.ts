@@ -21,6 +21,37 @@ export interface QuizStats {
   correct: number;
 }
 
+/** A word in a Phrase that falls outside HSK 1: given to the learner, never tested. */
+export interface Gloss {
+  word: string;
+  pinyin: string;
+  meaning: string;
+}
+
+export interface Phrase {
+  id: number;
+  zh: string;
+  pinyin: string;
+  en: string;
+  theme: string;
+  /** Every answer counted correct, canonical form first. */
+  accept: string[];
+  glosses: Gloss[];
+  source: 'authored' | 'tatoeba';
+  /** Tatoeba sentence ids, for CC-BY attribution. */
+  ref?: string[];
+  /** HSK 1 Word ids this Phrase uses; drives progress-weighted selection. */
+  wordIds: number[];
+}
+
+/** Per-Phrase memory. Deliberately separate from Word SM-2 state — see ADR 0005. */
+export interface PhraseProgress {
+  seen: number;
+  correct: number;
+  streak: number;
+  lastWrong: boolean;
+}
+
 export interface Settings {
   newPerDay: number;
 }
@@ -33,4 +64,5 @@ export interface AppState {
   introduced: { date: string; count: number };
   /** Seed for the randomized (but stable) order in which new Words are introduced. */
   shuffleSeed: number;
+  phraseProgress: Record<number, PhraseProgress>;
 }

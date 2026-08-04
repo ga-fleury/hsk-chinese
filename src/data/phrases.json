@@ -1,0 +1,6444 @@
+[
+ {
+  "zh": "你好，很高兴认识你。",
+  "pinyin": "nǐ hǎo hěn gāo xìng rèn shi nǐ",
+  "en": "Hello, nice to meet you.",
+  "theme": "greetings",
+  "accept": [
+   "你好，很高兴认识你。",
+   "你好，很高兴认识您。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   116,
+   139,
+   147,
+   274,
+   309
+  ],
+  "id": 0
+ },
+ {
+  "zh": "你叫什么名字？",
+  "pinyin": "nǐ jiào shén me míng zi",
+  "en": "What is your name?",
+  "theme": "greetings",
+  "accept": [
+   "你叫什么名字？",
+   "您叫什么名字？",
+   "你叫什么？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   175,
+   248,
+   274,
+   330
+  ],
+  "id": 1
+ },
+ {
+  "zh": "你姓什么？",
+  "pinyin": "nǐ xìng shén me",
+  "en": "What is your surname?",
+  "theme": "greetings",
+  "accept": [
+   "你姓什么？",
+   "您姓什么？"
+  ],
+  "glosses": [
+   {
+    "word": "姓",
+    "pinyin": "xìng",
+    "meaning": "surname; to be surnamed"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   274,
+   330
+  ],
+  "id": 2
+ },
+ {
+  "zh": "早上好！",
+  "pinyin": "zǎo shang hǎo",
+  "en": "Good morning!",
+  "theme": "greetings",
+  "accept": [
+   "早上好！"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   139,
+   464
+  ],
+  "id": 3
+ },
+ {
+  "zh": "老师好！",
+  "pinyin": "lǎo shī hǎo",
+  "en": "Hello, teacher!",
+  "theme": "greetings",
+  "accept": [
+   "老师好！"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   139,
+   210
+  ],
+  "id": 4
+ },
+ {
+  "zh": "再见，明天见！",
+  "pinyin": "zài jiàn míng tiān jiàn",
+  "en": "Goodbye, see you tomorrow!",
+  "theme": "greetings",
+  "accept": [
+   "再见，明天见！"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   173,
+   251,
+   459
+  ],
+  "id": 5
+ },
+ {
+  "zh": "谢谢你！",
+  "pinyin": "xiè xie nǐ",
+  "en": "Thank you!",
+  "theme": "greetings",
+  "accept": [
+   "谢谢你！",
+   "谢谢您！",
+   "谢谢！"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   274,
+   413
+  ],
+  "id": 6
+ },
+ {
+  "zh": "欢迎你来我家。",
+  "pinyin": "huān yíng nǐ lái wǒ jiā",
+  "en": "Welcome to my home.",
+  "theme": "greetings",
+  "accept": [
+   "欢迎你来我家。",
+   "欢迎您来我家。"
+  ],
+  "glosses": [
+   {
+    "word": "欢迎",
+    "pinyin": "huān yíng",
+    "meaning": "to welcome"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   169,
+   206,
+   274,
+   383
+  ],
+  "id": 7
+ },
+ {
+  "zh": "这是我的爸爸和妈妈。",
+  "pinyin": "zhè shì wǒ de bà ba hé mā ma",
+  "en": "These are my father and mother.",
+  "theme": "family",
+  "accept": [
+   "这是我的爸爸和妈妈。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   4,
+   70,
+   146,
+   226,
+   339,
+   383,
+   469
+  ],
+  "id": 8
+ },
+ {
+  "zh": "我有一个哥哥和一个妹妹。",
+  "pinyin": "wǒ yǒu yī gè gē ge hé yī gè mèi mei",
+  "en": "I have an older brother and a younger sister.",
+  "theme": "family",
+  "accept": [
+   "我有一个哥哥和一个妹妹。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   119,
+   121,
+   146,
+   240,
+   383,
+   430,
+   444
+  ],
+  "id": 9
+ },
+ {
+  "zh": "我家有四口人。",
+  "pinyin": "wǒ jiā yǒu sì kǒu rén",
+  "en": "There are four people in my family.",
+  "theme": "family",
+  "accept": [
+   "我家有四口人。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   169,
+   203,
+   308,
+   354,
+   383,
+   444
+  ],
+  "id": 10
+ },
+ {
+  "zh": "我姐姐是老师。",
+  "pinyin": "wǒ jiě jie shì lǎo shī",
+  "en": "My older sister is a teacher.",
+  "theme": "family",
+  "accept": [
+   "我姐姐是老师。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   180,
+   210,
+   339,
+   383
+  ],
+  "id": 11
+ },
+ {
+  "zh": "我弟弟八岁了。",
+  "pinyin": "wǒ dì di bā suì le",
+  "en": "My younger brother is eight years old.",
+  "theme": "family",
+  "accept": [
+   "我弟弟八岁了。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   2,
+   74,
+   211,
+   356,
+   383
+  ],
+  "id": 12
+ },
+ {
+  "zh": "你有孩子吗？",
+  "pinyin": "nǐ yǒu hái zi ma",
+  "en": "Do you have children?",
+  "theme": "family",
+  "accept": [
+   "你有孩子吗？",
+   "您有孩子吗？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   136,
+   229,
+   274,
+   444
+  ],
+  "id": 13
+ },
+ {
+  "zh": "我爱我的家。",
+  "pinyin": "wǒ ài wǒ de jiā",
+  "en": "I love my family.",
+  "theme": "family",
+  "accept": [
+   "我爱我的家。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   0,
+   70,
+   169,
+   383
+  ],
+  "id": 14
+ },
+ {
+  "zh": "你妈妈在家吗？",
+  "pinyin": "nǐ mā ma zài jiā ma",
+  "en": "Is your mother at home?",
+  "theme": "family",
+  "accept": [
+   "你妈妈在家吗？",
+   "您妈妈在家吗？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   226,
+   229,
+   274,
+   461
+  ],
+  "id": 15
+ },
+ {
+  "zh": "现在几点了？",
+  "pinyin": "xiàn zài jǐ diǎn le",
+  "en": "What time is it now?",
+  "theme": "time",
+  "accept": [
+   "现在几点了？",
+   "现在几点？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   77,
+   165,
+   211,
+   402
+  ],
+  "id": 16
+ },
+ {
+  "zh": "现在是三点半。",
+  "pinyin": "xiàn zài shì sān diǎn bàn",
+  "en": "It is half past three.",
+  "theme": "time",
+  "accept": [
+   "现在是三点半。",
+   "现在三点半。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   10,
+   77,
+   314,
+   339,
+   402
+  ],
+  "id": 17
+ },
+ {
+  "zh": "今天是几月几号？",
+  "pinyin": "jīn tiān shì jǐ yuè jǐ hào",
+  "en": "What is the date today?",
+  "theme": "time",
+  "accept": [
+   "今天是几月几号？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   144,
+   165,
+   182,
+   339,
+   457
+  ],
+  "id": 18
+ },
+ {
+  "zh": "明天是星期几？",
+  "pinyin": "míng tiān shì xīng qī jǐ",
+  "en": "What day is it tomorrow?",
+  "theme": "time",
+  "accept": [
+   "明天是星期几？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   165,
+   251,
+   339,
+   416
+  ],
+  "id": 19
+ },
+ {
+  "zh": "我七点起床。",
+  "pinyin": "wǒ qī diǎn qǐ chuáng",
+  "en": "I get up at seven.",
+  "theme": "time",
+  "accept": [
+   "我七点起床。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   77,
+   289,
+   291,
+   383
+  ],
+  "id": 20
+ },
+ {
+  "zh": "我们中午一起吃饭吧。",
+  "pinyin": "wǒ men zhōng wǔ yī qǐ chī fàn ba",
+  "en": "Let us have lunch together.",
+  "theme": "time",
+  "accept": [
+   "我们中午一起吃饭吧。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   5,
+   47,
+   384,
+   436,
+   485
+  ],
+  "id": 21
+ },
+ {
+  "zh": "昨天我很忙。",
+  "pinyin": "zuó tiān wǒ hěn máng",
+  "en": "I was very busy yesterday.",
+  "theme": "time",
+  "accept": [
+   "昨天我很忙。",
+   "我昨天很忙。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   147,
+   232,
+   383,
+   500
+  ],
+  "id": 22
+ },
+ {
+  "zh": "下午我有课。",
+  "pinyin": "xià wǔ wǒ yǒu kè",
+  "en": "I have class in the afternoon.",
+  "theme": "time",
+  "accept": [
+   "下午我有课。",
+   "我下午有课。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   200,
+   383,
+   398,
+   444
+  ],
+  "id": 23
+ },
+ {
+  "zh": "我想喝一杯茶。",
+  "pinyin": "wǒ xiǎng hē yī bēi chá",
+  "en": "I would like a cup of tea.",
+  "theme": "food",
+  "accept": [
+   "我想喝一杯茶。",
+   "我想喝杯茶。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   17,
+   36,
+   145,
+   383,
+   403,
+   430
+  ],
+  "id": 24
+ },
+ {
+  "zh": "你要吃什么？",
+  "pinyin": "nǐ yào chī shén me",
+  "en": "What would you like to eat?",
+  "theme": "food",
+  "accept": [
+   "你要吃什么？",
+   "您要吃什么？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   46,
+   274,
+   330,
+   426
+  ],
+  "id": 25
+ },
+ {
+  "zh": "这个菜很好吃。",
+  "pinyin": "zhè gè cài hěn hǎo chī",
+  "en": "This dish is delicious.",
+  "theme": "food",
+  "accept": [
+   "这个菜很好吃。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   35,
+   121,
+   140,
+   147,
+   469
+  ],
+  "id": 26
+ },
+ {
+  "zh": "我不喝咖啡。",
+  "pinyin": "wǒ bù hē kā fēi",
+  "en": "I do not drink coffee.",
+  "theme": "food",
+  "accept": [
+   "我不喝咖啡。"
+  ],
+  "glosses": [
+   {
+    "word": "咖啡",
+    "pinyin": "kā fēi",
+    "meaning": "coffee"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   30,
+   145,
+   383
+  ],
+  "id": 27
+ },
+ {
+  "zh": "我们去吃饺子吧。",
+  "pinyin": "wǒ men qù chī jiǎo zi ba",
+  "en": "Let us go eat dumplings.",
+  "theme": "food",
+  "accept": [
+   "我们去吃饺子吧。"
+  ],
+  "glosses": [
+   {
+    "word": "饺子",
+    "pinyin": "jiǎo zi",
+    "meaning": "dumplings"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   5,
+   46,
+   305,
+   384
+  ],
+  "id": 28
+ },
+ {
+  "zh": "我很饿。",
+  "pinyin": "wǒ hěn è",
+  "en": "I am very hungry.",
+  "theme": "food",
+  "accept": [
+   "我很饿。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   97,
+   147,
+   383
+  ],
+  "id": 29
+ },
+ {
+  "zh": "水果很好吃。",
+  "pinyin": "shuǐ guǒ hěn hǎo chī",
+  "en": "The fruit is delicious.",
+  "theme": "food",
+  "accept": [
+   "水果很好吃。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   140,
+   147,
+   349
+  ],
+  "id": 30
+ },
+ {
+  "zh": "我喜欢吃米饭。",
+  "pinyin": "wǒ xǐ huan chī mǐ fàn",
+  "en": "I like eating rice.",
+  "theme": "food",
+  "accept": [
+   "我喜欢吃米饭。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   46,
+   245,
+   383,
+   389
+  ],
+  "id": 31
+ },
+ {
+  "zh": "这个多少钱？",
+  "pinyin": "zhè gè duō shao qián",
+  "en": "How much is this?",
+  "theme": "shopping",
+  "accept": [
+   "这个多少钱？",
+   "这多少钱？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   96,
+   121,
+   297,
+   469
+  ],
+  "id": 32
+ },
+ {
+  "zh": "太贵了，便宜一点吧。",
+  "pinyin": "tài guì le pián yi yī diǎn ba",
+  "en": "Too expensive, a little cheaper please.",
+  "theme": "shopping",
+  "accept": [
+   "太贵了，便宜一点吧。"
+  ],
+  "glosses": [
+   {
+    "word": "便宜",
+    "pinyin": "pián yi",
+    "meaning": "cheap"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   5,
+   77,
+   128,
+   211,
+   361,
+   430
+  ],
+  "id": 33
+ },
+ {
+  "zh": "我要买两个。",
+  "pinyin": "wǒ yào mǎi liǎng gè",
+  "en": "I want to buy two.",
+  "theme": "shopping",
+  "accept": [
+   "我要买两个。",
+   "我想买两个。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   121,
+   216,
+   230,
+   383,
+   426
+  ],
+  "id": 34
+ },
+ {
+  "zh": "你们有小的吗？",
+  "pinyin": "nǐ men yǒu xiǎo de ma",
+  "en": "Do you have a small one?",
+  "theme": "shopping",
+  "accept": [
+   "你们有小的吗？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   70,
+   229,
+   275,
+   404,
+   444
+  ],
+  "id": 35
+ },
+ {
+  "zh": "我想买衣服。",
+  "pinyin": "wǒ xiǎng mǎi yī fu",
+  "en": "I want to buy clothes.",
+  "theme": "shopping",
+  "accept": [
+   "我想买衣服。",
+   "我要买衣服。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   230,
+   383,
+   403,
+   440
+  ],
+  "id": 36
+ },
+ {
+  "zh": "这个我不要，谢谢。",
+  "pinyin": "zhè gè wǒ bù yào xiè xie",
+  "en": "I do not want this one, thank you.",
+  "theme": "shopping",
+  "accept": [
+   "这个我不要，谢谢。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   30,
+   121,
+   383,
+   413,
+   426,
+   469
+  ],
+  "id": 37
+ },
+ {
+  "zh": "超市在哪里？",
+  "pinyin": "chāo shì zài nǎ lǐ",
+  "en": "Where is the supermarket?",
+  "theme": "shopping",
+  "accept": [
+   "超市在哪里？",
+   "超市在哪儿？"
+  ],
+  "glosses": [
+   {
+    "word": "超市",
+    "pinyin": "chāo shì",
+    "meaning": "supermarket"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   255,
+   460
+  ],
+  "id": 38
+ },
+ {
+  "zh": "我没有钱了。",
+  "pinyin": "wǒ méi yǒu qián le",
+  "en": "I have no money left.",
+  "theme": "shopping",
+  "accept": [
+   "我没有钱了。",
+   "我没钱了。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   211,
+   238,
+   297,
+   383
+  ],
+  "id": 39
+ },
+ {
+  "zh": "火车站在哪里？",
+  "pinyin": "huǒ chē zhàn zài nǎ lǐ",
+  "en": "Where is the train station?",
+  "theme": "directions",
+  "accept": [
+   "火车站在哪里？",
+   "火车站在哪儿？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   161,
+   255,
+   460,
+   466
+  ],
+  "id": 40
+ },
+ {
+  "zh": "请问，医院怎么走？",
+  "pinyin": "qǐng wèn yī yuàn zěn me zǒu",
+  "en": "Excuse me, how do I get to the hospital?",
+  "theme": "directions",
+  "accept": [
+   "请问，医院怎么走？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   302,
+   442,
+   465,
+   495
+  ],
+  "id": 41
+ },
+ {
+  "zh": "我住在学校旁边。",
+  "pinyin": "wǒ zhù zài xué xiào páng biān",
+  "en": "I live next to the school.",
+  "theme": "directions",
+  "accept": [
+   "我住在学校旁边。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   285,
+   383,
+   424,
+   460,
+   490
+  ],
+  "id": 42
+ },
+ {
+  "zh": "银行在商店旁边。",
+  "pinyin": "yín háng zài shāng diàn páng biān",
+  "en": "The bank is next to the shop.",
+  "theme": "directions",
+  "accept": [
+   "银行在商店旁边。"
+  ],
+  "glosses": [
+   {
+    "word": "银行",
+    "pinyin": "yín háng",
+    "meaning": "bank"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   285,
+   317,
+   460
+  ],
+  "id": 43
+ },
+ {
+  "zh": "我不认识路。",
+  "pinyin": "wǒ bù rèn shi lù",
+  "en": "I do not know the way.",
+  "theme": "directions",
+  "accept": [
+   "我不认识路。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   30,
+   222,
+   309,
+   383
+  ],
+  "id": 44
+ },
+ {
+  "zh": "地铁站远吗？",
+  "pinyin": "dì tiě zhàn yuǎn ma",
+  "en": "Is the subway station far?",
+  "theme": "directions",
+  "accept": [
+   "地铁站远吗？"
+  ],
+  "glosses": [
+   {
+    "word": "地铁",
+    "pinyin": "dì tiě",
+    "meaning": "subway"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   229,
+   456,
+   466
+  ],
+  "id": 45
+ },
+ {
+  "zh": "我们走路去吧。",
+  "pinyin": "wǒ men zǒu lù qù ba",
+  "en": "Let us walk there.",
+  "theme": "directions",
+  "accept": [
+   "我们走路去吧。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   5,
+   305,
+   384,
+   496
+  ],
+  "id": 46
+ },
+ {
+  "zh": "你住在哪里？",
+  "pinyin": "nǐ zhù zài nǎ lǐ",
+  "en": "Where do you live?",
+  "theme": "directions",
+  "accept": [
+   "你住在哪里？",
+   "您住在哪里？",
+   "你住在哪儿？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   255,
+   274,
+   460,
+   490
+  ],
+  "id": 47
+ },
+ {
+  "zh": "我每天都上网。",
+  "pinyin": "wǒ měi tiān dōu shàng wǎng",
+  "en": "I go online every day.",
+  "theme": "daily",
+  "accept": [
+   "我每天都上网。"
+  ],
+  "glosses": [
+   {
+    "word": "每天",
+    "pinyin": "měi tiān",
+    "meaning": "every day"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   90,
+   324,
+   383
+  ],
+  "id": 48
+ },
+ {
+  "zh": "我在看电视。",
+  "pinyin": "wǒ zài kàn diàn shì",
+  "en": "I am watching television.",
+  "theme": "daily",
+  "accept": [
+   "我在看电视。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   81,
+   193,
+   383,
+   460
+  ],
+  "id": 49
+ },
+ {
+  "zh": "我要去睡觉了。",
+  "pinyin": "wǒ yào qù shuì jiào le",
+  "en": "I am going to sleep.",
+  "theme": "daily",
+  "accept": [
+   "我要去睡觉了。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   211,
+   305,
+   351,
+   383,
+   426
+  ],
+  "id": 50
+ },
+ {
+  "zh": "你在做什么？",
+  "pinyin": "nǐ zài zuò shén me",
+  "en": "What are you doing?",
+  "theme": "daily",
+  "accept": [
+   "你在做什么？",
+   "您在做什么？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   274,
+   330,
+   460,
+   505
+  ],
+  "id": 51
+ },
+ {
+  "zh": "我在学习汉语。",
+  "pinyin": "wǒ zài xué xí Hàn yǔ",
+  "en": "I am studying Chinese.",
+  "theme": "daily",
+  "accept": [
+   "我在学习汉语。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   137,
+   383,
+   423,
+   460
+  ],
+  "id": 52
+ },
+ {
+  "zh": "我想休息一下。",
+  "pinyin": "wǒ xiǎng xiū xi yī xià",
+  "en": "I want to rest a while.",
+  "theme": "daily",
+  "accept": [
+   "我想休息一下。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   383,
+   392,
+   403,
+   420,
+   430
+  ],
+  "id": 53
+ },
+ {
+  "zh": "我要洗衣服。",
+  "pinyin": "wǒ yào xǐ yī fu",
+  "en": "I need to wash clothes.",
+  "theme": "daily",
+  "accept": [
+   "我要洗衣服。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   383,
+   387,
+   426,
+   440
+  ],
+  "id": 54
+ },
+ {
+  "zh": "我早上喝牛奶。",
+  "pinyin": "wǒ zǎo shang hē niú nǎi",
+  "en": "I drink milk in the morning.",
+  "theme": "daily",
+  "accept": [
+   "我早上喝牛奶。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   145,
+   278,
+   383,
+   464
+  ],
+  "id": 55
+ },
+ {
+  "zh": "今天天气很好。",
+  "pinyin": "jīn tiān tiān qì hěn hǎo",
+  "en": "The weather is nice today.",
+  "theme": "weather",
+  "accept": [
+   "今天天气很好。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   139,
+   147,
+   182,
+   363
+  ],
+  "id": 56
+ },
+ {
+  "zh": "外面在下雨。",
+  "pinyin": "wài miàn zài xià yǔ",
+  "en": "It is raining outside.",
+  "theme": "weather",
+  "accept": [
+   "外面在下雨。"
+  ],
+  "glosses": [
+   {
+    "word": "外面",
+    "pinyin": "wài miàn",
+    "meaning": "outside"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   399,
+   460
+  ],
+  "id": 57
+ },
+ {
+  "zh": "今天很冷。",
+  "pinyin": "jīn tiān hěn lěng",
+  "en": "It is very cold today.",
+  "theme": "weather",
+  "accept": [
+   "今天很冷。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   147,
+   182,
+   213
+  ],
+  "id": 58
+ },
+ {
+  "zh": "明天会下雨吗？",
+  "pinyin": "míng tiān huì xià yǔ ma",
+  "en": "Will it rain tomorrow?",
+  "theme": "weather",
+  "accept": [
+   "明天会下雨吗？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   160,
+   229,
+   251,
+   399
+  ],
+  "id": 59
+ },
+ {
+  "zh": "今天很热。",
+  "pinyin": "jīn tiān hěn rè",
+  "en": "It is very hot today.",
+  "theme": "weather",
+  "accept": [
+   "今天很热。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   147,
+   182,
+   307
+  ],
+  "id": 60
+ },
+ {
+  "zh": "外面有风。",
+  "pinyin": "wài miàn yǒu fēng",
+  "en": "It is windy outside.",
+  "theme": "weather",
+  "accept": [
+   "外面有风。"
+  ],
+  "glosses": [
+   {
+    "word": "外面",
+    "pinyin": "wài miàn",
+    "meaning": "outside"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   111,
+   444
+  ],
+  "id": 61
+ },
+ {
+  "zh": "我喜欢下雪。",
+  "pinyin": "wǒ xǐ huan xià xuě",
+  "en": "I like it when it snows.",
+  "theme": "weather",
+  "accept": [
+   "我喜欢下雪。"
+  ],
+  "glosses": [
+   {
+    "word": "雪",
+    "pinyin": "xuě",
+    "meaning": "snow"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   383,
+   389,
+   392
+  ],
+  "id": 62
+ },
+ {
+  "zh": "天气不好，我们在家吧。",
+  "pinyin": "tiān qì bù hǎo wǒ men zài jiā ba",
+  "en": "The weather is bad, let us stay home.",
+  "theme": "weather",
+  "accept": [
+   "天气不好，我们在家吧。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   5,
+   30,
+   139,
+   363,
+   384,
+   461
+  ],
+  "id": 63
+ },
+ {
+  "zh": "我是学生。",
+  "pinyin": "wǒ shì xué sheng",
+  "en": "I am a student.",
+  "theme": "school",
+  "accept": [
+   "我是学生。",
+   "我是个学生。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   339,
+   383,
+   422
+  ],
+  "id": 64
+ },
+ {
+  "zh": "我在学校学习汉语。",
+  "pinyin": "wǒ zài xué xiào xué xí Hàn yǔ",
+  "en": "I study Chinese at school.",
+  "theme": "school",
+  "accept": [
+   "我在学校学习汉语。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   137,
+   383,
+   423,
+   424,
+   460
+  ],
+  "id": 65
+ },
+ {
+  "zh": "老师，我有问题。",
+  "pinyin": "lǎo shī wǒ yǒu wèn tí",
+  "en": "Teacher, I have a question.",
+  "theme": "school",
+  "accept": [
+   "老师，我有问题。"
+  ],
+  "glosses": [
+   {
+    "word": "问题",
+    "pinyin": "wèn tí",
+    "meaning": "question; problem"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   210,
+   383,
+   444
+  ],
+  "id": 66
+ },
+ {
+  "zh": "明天有考试。",
+  "pinyin": "míng tiān yǒu kǎo shì",
+  "en": "There is an exam tomorrow.",
+  "theme": "school",
+  "accept": [
+   "明天有考试。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   198,
+   251,
+   444
+  ],
+  "id": 67
+ },
+ {
+  "zh": "我要做作业。",
+  "pinyin": "wǒ yào zuò zuò yè",
+  "en": "I have to do homework.",
+  "theme": "school",
+  "accept": [
+   "我要做作业。"
+  ],
+  "glosses": [
+   {
+    "word": "作业",
+    "pinyin": "zuò yè",
+    "meaning": "homework"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   383,
+   426,
+   505
+  ],
+  "id": 68
+ },
+ {
+  "zh": "我在公司工作。",
+  "pinyin": "wǒ zài gōng sī gōng zuò",
+  "en": "I work at a company.",
+  "theme": "school",
+  "accept": [
+   "我在公司工作。"
+  ],
+  "glosses": [
+   {
+    "word": "公司",
+    "pinyin": "gōng sī",
+    "meaning": "company"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   125,
+   383,
+   460
+  ],
+  "id": 69
+ },
+ {
+  "zh": "你的工作忙吗？",
+  "pinyin": "nǐ de gōng zuò máng ma",
+  "en": "Is your job busy?",
+  "theme": "school",
+  "accept": [
+   "你的工作忙吗？",
+   "您的工作忙吗？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   70,
+   125,
+   229,
+   232,
+   274
+  ],
+  "id": 70
+ },
+ {
+  "zh": "我今天要上班。",
+  "pinyin": "wǒ jīn tiān yào shàng bān",
+  "en": "I have to go to work today.",
+  "theme": "school",
+  "accept": [
+   "我今天要上班。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   182,
+   319,
+   383,
+   426
+  ],
+  "id": 71
+ },
+ {
+  "zh": "我很高兴。",
+  "pinyin": "wǒ hěn gāo xìng",
+  "en": "I am very happy.",
+  "theme": "feelings",
+  "accept": [
+   "我很高兴。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   116,
+   147,
+   383
+  ],
+  "id": 72
+ },
+ {
+  "zh": "我有点累。",
+  "pinyin": "wǒ yǒu diǎn lèi",
+  "en": "I am a little tired.",
+  "theme": "feelings",
+  "accept": [
+   "我有点累。",
+   "我有点累了。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   77,
+   212,
+   383,
+   444
+  ],
+  "id": 73
+ },
+ {
+  "zh": "我不舒服，想去医院。",
+  "pinyin": "wǒ bù shū fu xiǎng qù yī yuàn",
+  "en": "I do not feel well, I want to go to the hospital.",
+  "theme": "feelings",
+  "accept": [
+   "我不舒服，想去医院。"
+  ],
+  "glosses": [
+   {
+    "word": "舒服",
+    "pinyin": "shū fu",
+    "meaning": "comfortable; well"
+   }
+  ],
+  "source": "authored",
+  "wordIds": [
+   30,
+   305,
+   383,
+   403,
+   442
+  ],
+  "id": 74
+ },
+ {
+  "zh": "你怎么了？",
+  "pinyin": "nǐ zěn me le",
+  "en": "What is wrong with you?",
+  "theme": "feelings",
+  "accept": [
+   "你怎么了？",
+   "您怎么了？"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   211,
+   274,
+   465
+  ],
+  "id": 75
+ },
+ {
+  "zh": "我很想你。",
+  "pinyin": "wǒ hěn xiǎng nǐ",
+  "en": "I miss you very much.",
+  "theme": "feelings",
+  "accept": [
+   "我很想你。",
+   "我很想您。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   147,
+   274,
+   383,
+   403
+  ],
+  "id": 76
+ },
+ {
+  "zh": "我生气了。",
+  "pinyin": "wǒ shēng qì le",
+  "en": "I am angry.",
+  "theme": "feelings",
+  "accept": [
+   "我生气了。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   211,
+   332,
+   383
+  ],
+  "id": 77
+ },
+ {
+  "zh": "别生气。",
+  "pinyin": "bié shēng qì",
+  "en": "Do not be angry.",
+  "theme": "feelings",
+  "accept": [
+   "别生气。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   25,
+   332
+  ],
+  "id": 78
+ },
+ {
+  "zh": "我觉得很好。",
+  "pinyin": "wǒ jué de hěn hǎo",
+  "en": "I feel good.",
+  "theme": "feelings",
+  "accept": [
+   "我觉得很好。"
+  ],
+  "glosses": [],
+  "source": "authored",
+  "wordIds": [
+   139,
+   147,
+   188,
+   383
+  ],
+  "id": 79
+ },
+ {
+  "zh": "一会儿见！",
+  "pinyin": "yī huì r jiàn",
+  "en": "See you soon!",
+  "theme": "greetings",
+  "accept": [
+   "一会儿见！"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "32672",
+   "337874"
+  ],
+  "wordIds": [
+   173,
+   434
+  ],
+  "id": 80
+ },
+ {
+  "zh": "见到你真好。",
+  "pinyin": "jiàn dào nǐ zhēn hǎo",
+  "en": "Nice to see you.",
+  "theme": "greetings",
+  "accept": [
+   "见到你真好。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "32688",
+   "795754"
+  ],
+  "wordIds": [
+   64,
+   139,
+   173,
+   274,
+   475
+  ],
+  "id": 81
+ },
+ {
+  "zh": "我是个学生。",
+  "pinyin": "wǒ shì gè xué sheng",
+  "en": "I'm a student.",
+  "theme": "school",
+  "accept": [
+   "我是个学生。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "567368",
+   "7768226"
+  ],
+  "wordIds": [
+   121,
+   339,
+   383,
+   422
+  ],
+  "id": 82
+ },
+ {
+  "zh": "您叫什么名字？",
+  "pinyin": "nín jiào shén me míng zi",
+  "en": "What's your name?",
+  "theme": "greetings",
+  "accept": [
+   "您叫什么名字？",
+   "你叫什么名字？",
+   "你叫什么？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "346883",
+   "408293",
+   "444659",
+   "10966808"
+  ],
+  "wordIds": [
+   175,
+   248,
+   277,
+   330
+  ],
+  "id": 83
+ },
+ {
+  "zh": "你叫什么？",
+  "pinyin": "nǐ jiào shén me",
+  "en": "What's your name?",
+  "theme": "daily",
+  "accept": [
+   "你叫什么？",
+   "你叫什么名字？",
+   "您叫什么名字？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "346883",
+   "408293",
+   "444659",
+   "10966808"
+  ],
+  "wordIds": [
+   175,
+   274,
+   330
+  ],
+  "id": 84
+ },
+ {
+  "zh": "您是学生吗？",
+  "pinyin": "nín shì xué sheng ma",
+  "en": "Are you a student?",
+  "theme": "school",
+  "accept": [
+   "您是学生吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69521",
+   "2202342"
+  ],
+  "wordIds": [
+   229,
+   277,
+   339,
+   422
+  ],
+  "id": 85
+ },
+ {
+  "zh": "你是老师吗？",
+  "pinyin": "nǐ shì lǎo shī ma",
+  "en": "Are you a teacher?",
+  "theme": "school",
+  "accept": [
+   "你是老师吗？",
+   "你是不是老师？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2894605",
+   "3378183",
+   "9975134"
+  ],
+  "wordIds": [
+   210,
+   229,
+   274,
+   339
+  ],
+  "id": 86
+ },
+ {
+  "zh": "你是医生吗？",
+  "pinyin": "nǐ shì yī shēng ma",
+  "en": "Are you a doctor?",
+  "theme": "daily",
+  "accept": [
+   "你是医生吗？",
+   "你是不是医生？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "502228",
+   "864444",
+   "3378216"
+  ],
+  "wordIds": [
+   229,
+   274,
+   339,
+   441
+  ],
+  "id": 87
+ },
+ {
+  "zh": "你是不是医生？",
+  "pinyin": "nǐ shì bù shì yī shēng",
+  "en": "Are you a doctor?",
+  "theme": "daily",
+  "accept": [
+   "你是不是医生？",
+   "你是医生吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "502228",
+   "864444",
+   "3378216"
+  ],
+  "wordIds": [
+   274,
+   340,
+   441
+  ],
+  "id": 88
+ },
+ {
+  "zh": "我是日本人。",
+  "pinyin": "wǒ shì rì běn rén",
+  "en": "I am Japanese.",
+  "theme": "daily",
+  "accept": [
+   "我是日本人。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "657403",
+   "9436230"
+  ],
+  "wordIds": [
+   22,
+   308,
+   311,
+   339,
+   383
+  ],
+  "id": 89
+ },
+ {
+  "zh": "我爸爸很忙。",
+  "pinyin": "wǒ bà ba hěn máng",
+  "en": "My dad is busy.",
+  "theme": "family",
+  "accept": [
+   "我爸爸很忙。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "332500",
+   "4787511"
+  ],
+  "wordIds": [
+   4,
+   147,
+   232,
+   383
+  ],
+  "id": 90
+ },
+ {
+  "zh": "那个是我爸爸。",
+  "pinyin": "nà gè shì wǒ bà ba",
+  "en": "That's my dad.",
+  "theme": "family",
+  "accept": [
+   "那个是我爸爸。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "4397567",
+   "10966769"
+  ],
+  "wordIds": [
+   4,
+   121,
+   257,
+   339,
+   383
+  ],
+  "id": 91
+ },
+ {
+  "zh": "我的孩子病了。",
+  "pinyin": "wǒ de hái zi bìng le",
+  "en": "My child is sick.",
+  "theme": "family",
+  "accept": [
+   "我的孩子病了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "10696154",
+   "10699407"
+  ],
+  "wordIds": [
+   28,
+   70,
+   136,
+   211,
+   383
+  ],
+  "id": 92
+ },
+ {
+  "zh": "我们有两个孩子。",
+  "pinyin": "wǒ men yǒu liǎng gè hái zi",
+  "en": "We have two kids.",
+  "theme": "family",
+  "accept": [
+   "我们有两个孩子。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "408163",
+   "408165"
+  ],
+  "wordIds": [
+   121,
+   136,
+   216,
+   384,
+   444
+  ],
+  "id": 93
+ },
+ {
+  "zh": "他有三个儿子。",
+  "pinyin": "tā yǒu sān gè ér zi",
+  "en": "He has three sons.",
+  "theme": "family",
+  "accept": [
+   "他有三个儿子。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "430778",
+   "430977"
+  ],
+  "wordIds": [
+   98,
+   121,
+   314,
+   357,
+   444
+  ],
+  "id": 94
+ },
+ {
+  "zh": "你妈妈呢？",
+  "pinyin": "nǐ mā ma ne",
+  "en": "Where's your mom?",
+  "theme": "family",
+  "accept": [
+   "你妈妈呢？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2254687",
+   "10966817"
+  ],
+  "wordIds": [
+   226,
+   272,
+   274
+  ],
+  "id": 95
+ },
+ {
+  "zh": "现在几点？",
+  "pinyin": "xiàn zài jǐ diǎn",
+  "en": "What time is it?",
+  "theme": "time",
+  "accept": [
+   "现在几点？",
+   "现在几点了？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "428402",
+   "3377949",
+   "8293429"
+  ],
+  "wordIds": [
+   77,
+   165,
+   402
+  ],
+  "id": 96
+ },
+ {
+  "zh": "差不多六点了。",
+  "pinyin": "chà bù duō liù diǎn le",
+  "en": "It's almost six.",
+  "theme": "time",
+  "accept": [
+   "差不多六点了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "519311",
+   "609853"
+  ],
+  "wordIds": [
+   30,
+   37,
+   77,
+   95,
+   211,
+   218
+  ],
+  "id": 97
+ },
+ {
+  "zh": "睡觉时间到了。",
+  "pinyin": "shuì jiào shí jiān dào le",
+  "en": "It's bedtime.",
+  "theme": "time",
+  "accept": [
+   "睡觉时间到了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "406727",
+   "498458"
+  ],
+  "wordIds": [
+   64,
+   211,
+   336,
+   351
+  ],
+  "id": 98
+ },
+ {
+  "zh": "吃饭时间到了。",
+  "pinyin": "chī fàn shí jiān dào le",
+  "en": "Time for dinner.",
+  "theme": "time",
+  "accept": [
+   "吃饭时间到了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "324656",
+   "336431"
+  ],
+  "wordIds": [
+   47,
+   64,
+   211,
+   336
+  ],
+  "id": 99
+ },
+ {
+  "zh": "时间到了。",
+  "pinyin": "shí jiān dào le",
+  "en": "Time's up.",
+  "theme": "time",
+  "accept": [
+   "时间到了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "5094825",
+   "6611926"
+  ],
+  "wordIds": [
+   64,
+   211,
+   336
+  ],
+  "id": 100
+ },
+ {
+  "zh": "我喜欢茶。",
+  "pinyin": "wǒ xǐ huan chá",
+  "en": "I like tea.",
+  "theme": "food",
+  "accept": [
+   "我喜欢茶。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "253293",
+   "399985"
+  ],
+  "wordIds": [
+   36,
+   383,
+   389
+  ],
+  "id": 101
+ },
+ {
+  "zh": "我不喜欢喝茶。",
+  "pinyin": "wǒ bù xǐ huan hē chá",
+  "en": "I don't like tea.",
+  "theme": "food",
+  "accept": [
+   "我不喜欢喝茶。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1098278",
+   "4673815"
+  ],
+  "wordIds": [
+   30,
+   36,
+   145,
+   383,
+   389
+  ],
+  "id": 102
+ },
+ {
+  "zh": "我吃面包。",
+  "pinyin": "wǒ chī miàn bāo",
+  "en": "I eat bread.",
+  "theme": "food",
+  "accept": [
+   "我吃面包。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "843482",
+   "1867478"
+  ],
+  "wordIds": [
+   46,
+   246,
+   383
+  ],
+  "id": 103
+ },
+ {
+  "zh": "我在吃米饭。",
+  "pinyin": "wǒ zài chī mǐ fàn",
+  "en": "I'm eating rice.",
+  "theme": "food",
+  "accept": [
+   "我在吃米饭。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "334506",
+   "6873303"
+  ],
+  "wordIds": [
+   46,
+   245,
+   383,
+   460
+  ],
+  "id": 104
+ },
+ {
+  "zh": "我不喜欢鸡蛋。",
+  "pinyin": "wǒ bù xǐ huan jī dàn",
+  "en": "I dislike eggs.",
+  "theme": "food",
+  "accept": [
+   "我不喜欢鸡蛋。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "593244",
+   "4673809"
+  ],
+  "wordIds": [
+   30,
+   164,
+   383,
+   389
+  ],
+  "id": 105
+ },
+ {
+  "zh": "我还饿着呢。",
+  "pinyin": "wǒ hái è zhe ne",
+  "en": "I'm still hungry.",
+  "theme": "food",
+  "accept": [
+   "我还饿着呢。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1475877",
+   "5091106"
+  ],
+  "wordIds": [
+   97,
+   133,
+   272,
+   383,
+   474
+  ],
+  "id": 106
+ },
+ {
+  "zh": "饭做好了。",
+  "pinyin": "fàn zuò hǎo le",
+  "en": "The food's ready.",
+  "theme": "food",
+  "accept": [
+   "饭做好了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2307383",
+   "2308512"
+  ],
+  "wordIds": [
+   100,
+   139,
+   211,
+   505
+  ],
+  "id": 107
+ },
+ {
+  "zh": "您吃不吃肉？",
+  "pinyin": "nín chī bù chī ròu",
+  "en": "Do you eat meat?",
+  "theme": "food",
+  "accept": [
+   "您吃不吃肉？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "427988",
+   "427989"
+  ],
+  "wordIds": [
+   30,
+   46,
+   277,
+   313
+  ],
+  "id": 108
+ },
+ {
+  "zh": "这个几块？",
+  "pinyin": "zhè gè jǐ kuài",
+  "en": "How much is it?",
+  "theme": "shopping",
+  "accept": [
+   "这个几块？",
+   "这个多少钱？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2418",
+   "10052320",
+   "10052325"
+  ],
+  "wordIds": [
+   121,
+   165,
+   204,
+   469
+  ],
+  "id": 109
+ },
+ {
+  "zh": "我没钱了。",
+  "pinyin": "wǒ méi qián le",
+  "en": "I have no money.",
+  "theme": "shopping",
+  "accept": [
+   "我没钱了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "433613",
+   "10019726"
+  ],
+  "wordIds": [
+   211,
+   234,
+   297,
+   383
+  ],
+  "id": 110
+ },
+ {
+  "zh": "那是我的钱。",
+  "pinyin": "nà shì wǒ de qián",
+  "en": "It's my money.",
+  "theme": "shopping",
+  "accept": [
+   "那是我的钱。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2249099",
+   "8727837"
+  ],
+  "wordIds": [
+   70,
+   257,
+   297,
+   339,
+   383
+  ],
+  "id": 111
+ },
+ {
+  "zh": "不用找零钱了。",
+  "pinyin": "bù yòng zhǎo líng qián le",
+  "en": "Keep the change!",
+  "theme": "shopping",
+  "accept": [
+   "不用找零钱了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "39748",
+   "1411509"
+  ],
+  "wordIds": [
+   34,
+   211,
+   217,
+   297,
+   467
+  ],
+  "id": 112
+ },
+ {
+  "zh": "我能试一下吗？",
+  "pinyin": "wǒ néng shì yī xià ma",
+  "en": "May I try it on?",
+  "theme": "daily",
+  "accept": [
+   "我能试一下吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "41784",
+   "782915"
+  ],
+  "wordIds": [
+   229,
+   273,
+   338,
+   383,
+   392,
+   430
+  ],
+  "id": 113
+ },
+ {
+  "zh": "我住在这里。",
+  "pinyin": "wǒ zhù zài zhè lǐ",
+  "en": "I live here.",
+  "theme": "directions",
+  "accept": [
+   "我住在这里。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "444986",
+   "11264800"
+  ],
+  "wordIds": [
+   383,
+   460,
+   472,
+   490
+  ],
+  "id": 114
+ },
+ {
+  "zh": "谁住在这儿？",
+  "pinyin": "shéi zhù zài zhè r",
+  "en": "Who lives here?",
+  "theme": "directions",
+  "accept": [
+   "谁住在这儿？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2254858",
+   "12422342"
+  ],
+  "wordIds": [
+   347,
+   460,
+   471,
+   490
+  ],
+  "id": 115
+ },
+ {
+  "zh": "门在哪里？",
+  "pinyin": "mén zài nǎ lǐ",
+  "en": "Where's the door?",
+  "theme": "directions",
+  "accept": [
+   "门在哪里？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2254662",
+   "10007048"
+  ],
+  "wordIds": [
+   241,
+   255,
+   460
+  ],
+  "id": 116
+ },
+ {
+  "zh": "我们去哪儿？",
+  "pinyin": "wǒ men qù nǎ r",
+  "en": "Where do we go?",
+  "theme": "directions",
+  "accept": [
+   "我们去哪儿？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "471103",
+   "2649070"
+  ],
+  "wordIds": [
+   254,
+   305,
+   384
+  ],
+  "id": 117
+ },
+ {
+  "zh": "你在哪儿?",
+  "pinyin": "nǐ zài nǎ r",
+  "en": "Where are you?",
+  "theme": "directions",
+  "accept": [
+   "你在哪儿?"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2168",
+   "346124"
+  ],
+  "wordIds": [
+   254,
+   274,
+   460
+  ],
+  "id": 118
+ },
+ {
+  "zh": "你在家里吗？",
+  "pinyin": "nǐ zài jiā lǐ ma",
+  "en": "Are you at home?",
+  "theme": "daily",
+  "accept": [
+   "你在家里吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "405500",
+   "406192"
+  ],
+  "wordIds": [
+   214,
+   229,
+   274,
+   461
+  ],
+  "id": 119
+ },
+ {
+  "zh": "他不在家。",
+  "pinyin": "tā bù zài jiā",
+  "en": "He's not home.",
+  "theme": "daily",
+  "accept": [
+   "他不在家。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "765282",
+   "1310853"
+  ],
+  "wordIds": [
+   30,
+   357,
+   461
+  ],
+  "id": 120
+ },
+ {
+  "zh": "我生病了。",
+  "pinyin": "wǒ shēng bìng le",
+  "en": "I'm ill.",
+  "theme": "feelings",
+  "accept": [
+   "我生病了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "448236",
+   "780291"
+  ],
+  "wordIds": [
+   211,
+   331,
+   383
+  ],
+  "id": 121
+ },
+ {
+  "zh": "我很难过。",
+  "pinyin": "wǒ hěn nán guò",
+  "en": "I'm sad.",
+  "theme": "feelings",
+  "accept": [
+   "我很难过。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "317741",
+   "333736"
+  ],
+  "wordIds": [
+   132,
+   147,
+   271,
+   383
+  ],
+  "id": 122
+ },
+ {
+  "zh": "我太高兴了。",
+  "pinyin": "wǒ tài gāo xìng le",
+  "en": "I'm so happy.",
+  "theme": "feelings",
+  "accept": [
+   "我太高兴了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "321673",
+   "3378044"
+  ],
+  "wordIds": [
+   116,
+   211,
+   361,
+   383
+  ],
+  "id": 123
+ },
+ {
+  "zh": "我有点累了。",
+  "pinyin": "wǒ yǒu diǎn lèi le",
+  "en": "I'm a bit tired.",
+  "theme": "feelings",
+  "accept": [
+   "我有点累了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "258672",
+   "12422343"
+  ],
+  "wordIds": [
+   77,
+   211,
+   212,
+   383,
+   444
+  ],
+  "id": 124
+ },
+ {
+  "zh": "我没生病。",
+  "pinyin": "wǒ méi shēng bìng",
+  "en": "I'm not sick.",
+  "theme": "feelings",
+  "accept": [
+   "我没生病。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2248178",
+   "3031836"
+  ],
+  "wordIds": [
+   234,
+   331,
+   383
+  ],
+  "id": 125
+ },
+ {
+  "zh": "我身体很好。",
+  "pinyin": "wǒ shēn tǐ hěn hǎo",
+  "en": "I'm healthy.",
+  "theme": "daily",
+  "accept": [
+   "我身体很好。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "259288",
+   "3378000"
+  ],
+  "wordIds": [
+   139,
+   147,
+   329,
+   383
+  ],
+  "id": 126
+ },
+ {
+  "zh": "他非常生气。",
+  "pinyin": "tā fēi cháng shēng qì",
+  "en": "He's very angry.",
+  "theme": "feelings",
+  "accept": [
+   "他非常生气。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "426894",
+   "1323916"
+  ],
+  "wordIds": [
+   109,
+   332,
+   357
+  ],
+  "id": 127
+ },
+ {
+  "zh": "他生气了。",
+  "pinyin": "tā shēng qì le",
+  "en": "He got angry.",
+  "theme": "feelings",
+  "accept": [
+   "他生气了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "389804",
+   "507233"
+  ],
+  "wordIds": [
+   211,
+   332,
+   357
+  ],
+  "id": 128
+ },
+ {
+  "zh": "我去学校。",
+  "pinyin": "wǒ qù xué xiào",
+  "en": "I go to school.",
+  "theme": "school",
+  "accept": [
+   "我去学校。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "472089",
+   "4878932"
+  ],
+  "wordIds": [
+   305,
+   383,
+   424
+  ],
+  "id": 129
+ },
+ {
+  "zh": "我在找工作。",
+  "pinyin": "wǒ zài zhǎo gōng zuò",
+  "en": "I'm job hunting.",
+  "theme": "school",
+  "accept": [
+   "我在找工作。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "406364",
+   "5858327"
+  ],
+  "wordIds": [
+   125,
+   383,
+   460,
+   467
+  ],
+  "id": 130
+ },
+ {
+  "zh": "我今天忙。",
+  "pinyin": "wǒ jīn tiān máng",
+  "en": "I'm busy today.",
+  "theme": "daily",
+  "accept": [
+   "我今天忙。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2713779",
+   "8215733"
+  ],
+  "wordIds": [
+   182,
+   232,
+   383
+  ],
+  "id": 131
+ },
+ {
+  "zh": "我今天休息。",
+  "pinyin": "wǒ jīn tiān xiū xi",
+  "en": "I am off today.",
+  "theme": "daily",
+  "accept": [
+   "我今天休息。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "242826",
+   "1990181"
+  ],
+  "wordIds": [
+   182,
+   383,
+   420
+  ],
+  "id": 132
+ },
+ {
+  "zh": "我们一起工作。",
+  "pinyin": "wǒ men yī qǐ gōng zuò",
+  "en": "We work together.",
+  "theme": "school",
+  "accept": [
+   "我们一起工作。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1893672",
+   "3378119"
+  ],
+  "wordIds": [
+   125,
+   384,
+   436
+  ],
+  "id": 133
+ },
+ {
+  "zh": "我们是同学。",
+  "pinyin": "wǒ men shì tóng xué",
+  "en": "We're classmates.",
+  "theme": "school",
+  "accept": [
+   "我们是同学。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "247946",
+   "333784"
+  ],
+  "wordIds": [
+   339,
+   368,
+   384
+  ],
+  "id": 134
+ },
+ {
+  "zh": "他是老师。",
+  "pinyin": "tā shì lǎo shī",
+  "en": "He is a teacher.",
+  "theme": "school",
+  "accept": [
+   "他是老师。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "295346",
+   "7768345"
+  ],
+  "wordIds": [
+   210,
+   339,
+   357
+  ],
+  "id": 135
+ },
+ {
+  "zh": "他在看电视。",
+  "pinyin": "tā zài kàn diàn shì",
+  "en": "He is watching TV.",
+  "theme": "daily",
+  "accept": [
+   "他在看电视。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "288039",
+   "347031"
+  ],
+  "wordIds": [
+   81,
+   193,
+   357,
+   460
+  ],
+  "id": 136
+ },
+ {
+  "zh": "我在读书。",
+  "pinyin": "wǒ zài dú shū",
+  "en": "I'm reading.",
+  "theme": "daily",
+  "accept": [
+   "我在读书。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1349059",
+   "5640765"
+  ],
+  "wordIds": [
+   92,
+   383,
+   460
+  ],
+  "id": 137
+ },
+ {
+  "zh": "我上网了。",
+  "pinyin": "wǒ shàng wǎng le",
+  "en": "I am online.",
+  "theme": "daily",
+  "accept": [
+   "我上网了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "436415",
+   "797368"
+  ],
+  "wordIds": [
+   211,
+   324,
+   383
+  ],
+  "id": 138
+ },
+ {
+  "zh": "我在打电话。",
+  "pinyin": "wǒ zài dǎ diàn huà",
+  "en": "I'm on the phone.",
+  "theme": "daily",
+  "accept": [
+   "我在打电话。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2280346",
+   "10695961"
+  ],
+  "wordIds": [
+   58,
+   383,
+   460
+  ],
+  "id": 139
+ },
+ {
+  "zh": "他喜欢睡觉。",
+  "pinyin": "tā xǐ huan shuì jiào",
+  "en": "He likes sleeping.",
+  "theme": "feelings",
+  "accept": [
+   "他喜欢睡觉。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1676741",
+   "2083009"
+  ],
+  "wordIds": [
+   351,
+   357,
+   389
+  ],
+  "id": 140
+ },
+ {
+  "zh": "我起床早。",
+  "pinyin": "wǒ qǐ chuáng zǎo",
+  "en": "I got up early.",
+  "theme": "daily",
+  "accept": [
+   "我起床早。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "259164",
+   "5555832"
+  ],
+  "wordIds": [
+   291,
+   383,
+   462
+  ],
+  "id": 141
+ },
+ {
+  "zh": "今天有风。",
+  "pinyin": "jīn tiān yǒu fēng",
+  "en": "It's windy today.",
+  "theme": "weather",
+  "accept": [
+   "今天有风。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "510694",
+   "2713755"
+  ],
+  "wordIds": [
+   111,
+   182,
+   444
+  ],
+  "id": 142
+ },
+ {
+  "zh": "天快要下雨了。",
+  "pinyin": "tiān kuài yào xià yǔ le",
+  "en": "It'll rain soon.",
+  "theme": "weather",
+  "accept": [
+   "天快要下雨了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "335128",
+   "2248988"
+  ],
+  "wordIds": [
+   205,
+   211,
+   362,
+   399,
+   426
+  ],
+  "id": 143
+ },
+ {
+  "zh": "不在下雨。",
+  "pinyin": "bù zài xià yǔ",
+  "en": "It isn't raining.",
+  "theme": "weather",
+  "accept": [
+   "不在下雨。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1366202",
+   "6523761"
+  ],
+  "wordIds": [
+   30,
+   399,
+   460
+  ],
+  "id": 144
+ },
+ {
+  "zh": "请坐一下。",
+  "pinyin": "qǐng zuò yī xià",
+  "en": "Please sit down.",
+  "theme": "daily",
+  "accept": [
+   "请坐一下。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "415594",
+   "415599"
+  ],
+  "wordIds": [
+   303,
+   392,
+   430
+  ],
+  "id": 145
+ },
+ {
+  "zh": "请再试一次。",
+  "pinyin": "qǐng zài shì yī cì",
+  "en": "Please try again.",
+  "theme": "daily",
+  "accept": [
+   "请再试一次。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1444842",
+   "9990131"
+  ],
+  "wordIds": [
+   53,
+   299,
+   338,
+   430,
+   458
+  ],
+  "id": 146
+ },
+ {
+  "zh": "请给我打电话。",
+  "pinyin": "qǐng gěi wǒ dǎ diàn huà",
+  "en": "Call me, please.",
+  "theme": "daily",
+  "accept": [
+   "请给我打电话。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "8794857",
+   "8933788"
+  ],
+  "wordIds": [
+   58,
+   122,
+   299,
+   383
+  ],
+  "id": 147
+ },
+ {
+  "zh": "您能帮我吗？",
+  "pinyin": "nín néng bāng wǒ ma",
+  "en": "Can you help me?",
+  "theme": "daily",
+  "accept": [
+   "您能帮我吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "434410",
+   "7772052"
+  ],
+  "wordIds": [
+   13,
+   229,
+   273,
+   277,
+   383
+  ],
+  "id": 148
+ },
+ {
+  "zh": "帮我一下。",
+  "pinyin": "bāng wǒ yī xià",
+  "en": "Help me.",
+  "theme": "daily",
+  "accept": [
+   "帮我一下。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "266065",
+   "332800"
+  ],
+  "wordIds": [
+   13,
+   383,
+   392,
+   430
+  ],
+  "id": 149
+ },
+ {
+  "zh": "请跟我来。",
+  "pinyin": "qǐng gēn wǒ lái",
+  "en": "Follow me.",
+  "theme": "daily",
+  "accept": [
+   "请跟我来。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "250135",
+   "466246"
+  ],
+  "wordIds": [
+   123,
+   206,
+   299,
+   383
+  ],
+  "id": 150
+ },
+ {
+  "zh": "我能看看那个吗？",
+  "pinyin": "wǒ néng kàn kàn nà gè ma",
+  "en": "Can I see that?",
+  "theme": "daily",
+  "accept": [
+   "我能看看那个吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1886275",
+   "8749676"
+  ],
+  "wordIds": [
+   121,
+   193,
+   229,
+   257,
+   273,
+   383
+  ],
+  "id": 151
+ },
+ {
+  "zh": "我能坐这里吗？",
+  "pinyin": "wǒ néng zuò zhè lǐ ma",
+  "en": "Can I sit here?",
+  "theme": "daily",
+  "accept": [
+   "我能坐这里吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1537275",
+   "4757682"
+  ],
+  "wordIds": [
+   229,
+   273,
+   383,
+   472,
+   503
+  ],
+  "id": 152
+ },
+ {
+  "zh": "我能休息一会儿吗？",
+  "pinyin": "wǒ néng xiū xi yī huì r ma",
+  "en": "Can I rest a bit?",
+  "theme": "daily",
+  "accept": [
+   "我能休息一会儿吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "334654",
+   "338305"
+  ],
+  "wordIds": [
+   229,
+   273,
+   383,
+   420,
+   434
+  ],
+  "id": 153
+ },
+ {
+  "zh": "我明白了。",
+  "pinyin": "wǒ míng bai le",
+  "en": "I understand.",
+  "theme": "daily",
+  "accept": [
+   "我明白了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "433468",
+   "819294"
+  ],
+  "wordIds": [
+   211,
+   249,
+   383
+  ],
+  "id": 154
+ },
+ {
+  "zh": "我不喜欢。",
+  "pinyin": "wǒ bù xǐ huan",
+  "en": "I don't like it.",
+  "theme": "feelings",
+  "accept": [
+   "我不喜欢。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1361974",
+   "2271878"
+  ],
+  "wordIds": [
+   30,
+   383,
+   389
+  ],
+  "id": 155
+ },
+ {
+  "zh": "我想知道。",
+  "pinyin": "wǒ xiǎng zhī dào",
+  "en": "I want to know.",
+  "theme": "daily",
+  "accept": [
+   "我想知道。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "961147",
+   "3715247"
+  ],
+  "wordIds": [
+   383,
+   403,
+   479
+  ],
+  "id": 156
+ },
+ {
+  "zh": "我听不见你。",
+  "pinyin": "wǒ tīng bù jiàn nǐ",
+  "en": "I can't hear you.",
+  "theme": "daily",
+  "accept": [
+   "我听不见你。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "320093",
+   "8914629"
+  ],
+  "wordIds": [
+   30,
+   173,
+   274,
+   364,
+   383
+  ],
+  "id": 157
+ },
+ {
+  "zh": "我做不到。",
+  "pinyin": "wǒ zuò bù dào",
+  "en": "I can't do it.",
+  "theme": "daily",
+  "accept": [
+   "我做不到。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "25544",
+   "7768005"
+  ],
+  "wordIds": [
+   30,
+   64,
+   383,
+   505
+  ],
+  "id": 158
+ },
+ {
+  "zh": "你记得吗？",
+  "pinyin": "nǐ jì de ma",
+  "en": "Do you remember?",
+  "theme": "daily",
+  "accept": [
+   "你记得吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "21678",
+   "444736"
+  ],
+  "wordIds": [
+   167,
+   229,
+   274
+  ],
+  "id": 159
+ },
+ {
+  "zh": "你认识我吗？",
+  "pinyin": "nǐ rèn shi wǒ ma",
+  "en": "Do you know me?",
+  "theme": "daily",
+  "accept": [
+   "你认识我吗？",
+   "你还认识我吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69295",
+   "1790035",
+   "4835855"
+  ],
+  "wordIds": [
+   229,
+   274,
+   309,
+   383
+  ],
+  "id": 160
+ },
+ {
+  "zh": "我认识你吗？",
+  "pinyin": "wǒ rèn shi nǐ ma",
+  "en": "Do I know you?",
+  "theme": "daily",
+  "accept": [
+   "我认识你吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1461944",
+   "1790170"
+  ],
+  "wordIds": [
+   229,
+   274,
+   309,
+   383
+  ],
+  "id": 161
+ },
+ {
+  "zh": "你会来吗？",
+  "pinyin": "nǐ huì lái ma",
+  "en": "Are you coming?",
+  "theme": "daily",
+  "accept": [
+   "你会来吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1417464",
+   "4970134"
+  ],
+  "wordIds": [
+   160,
+   206,
+   229,
+   274
+  ],
+  "id": 162
+ },
+ {
+  "zh": "您准备好了吗？",
+  "pinyin": "nín zhǔn bèi hǎo le ma",
+  "en": "Are you ready?",
+  "theme": "daily",
+  "accept": [
+   "您准备好了吗？",
+   "你们准备好了吗？",
+   "你准备好了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "376424",
+   "799300",
+   "799301",
+   "799302"
+  ],
+  "wordIds": [
+   139,
+   211,
+   229,
+   277,
+   491
+  ],
+  "id": 163
+ },
+ {
+  "zh": "你们准备好了吗？",
+  "pinyin": "nǐ men zhǔn bèi hǎo le ma",
+  "en": "Are you ready?",
+  "theme": "daily",
+  "accept": [
+   "你们准备好了吗？",
+   "您准备好了吗？",
+   "你准备好了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "376424",
+   "799300",
+   "799301",
+   "799302"
+  ],
+  "wordIds": [
+   139,
+   211,
+   229,
+   275,
+   491
+  ],
+  "id": 164
+ },
+ {
+  "zh": "你准备好了吗？",
+  "pinyin": "nǐ zhǔn bèi hǎo le ma",
+  "en": "Are you ready?",
+  "theme": "daily",
+  "accept": [
+   "你准备好了吗？",
+   "您准备好了吗？",
+   "你们准备好了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "376424",
+   "799300",
+   "799301",
+   "799302"
+  ],
+  "wordIds": [
+   139,
+   211,
+   229,
+   274,
+   491
+  ],
+  "id": 165
+ },
+ {
+  "zh": "你没事吧？",
+  "pinyin": "nǐ méi shì ba",
+  "en": "Are you okay?",
+  "theme": "daily",
+  "accept": [
+   "你没事吧？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2281516",
+   "10981515"
+  ],
+  "wordIds": [
+   5,
+   234,
+   274,
+   337
+  ],
+  "id": 166
+ },
+ {
+  "zh": "你在开玩笑吗？",
+  "pinyin": "nǐ zài kāi wán xiào ma",
+  "en": "Are you kidding?",
+  "theme": "daily",
+  "accept": [
+   "你在开玩笑吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "270147",
+   "7768013"
+  ],
+  "wordIds": [
+   192,
+   229,
+   274,
+   460
+  ],
+  "id": 167
+ },
+ {
+  "zh": "你是认真的吗？",
+  "pinyin": "nǐ shì rèn zhēn de ma",
+  "en": "Are you serious?",
+  "theme": "daily",
+  "accept": [
+   "你是认真的吗？",
+   "你认真的？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "373215",
+   "4887667",
+   "10024445"
+  ],
+  "wordIds": [
+   70,
+   229,
+   274,
+   310,
+   339
+  ],
+  "id": 168
+ },
+ {
+  "zh": "你认真的？",
+  "pinyin": "nǐ rèn zhēn de",
+  "en": "Are you serious?",
+  "theme": "daily",
+  "accept": [
+   "你认真的？",
+   "你是认真的吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "373215",
+   "4887667",
+   "10024445"
+  ],
+  "wordIds": [
+   70,
+   274,
+   310
+  ],
+  "id": 169
+ },
+ {
+  "zh": "你试过吗？",
+  "pinyin": "nǐ shì guò ma",
+  "en": "Did you ever try?",
+  "theme": "daily",
+  "accept": [
+   "你试过吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2755313",
+   "5865632"
+  ],
+  "wordIds": [
+   132,
+   229,
+   274,
+   338
+  ],
+  "id": 170
+ },
+ {
+  "zh": "再试一下。",
+  "pinyin": "zài shì yī xià",
+  "en": "Try again.",
+  "theme": "daily",
+  "accept": [
+   "再试一下。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "31723",
+   "8496264"
+  ],
+  "wordIds": [
+   338,
+   392,
+   430,
+   458
+  ],
+  "id": 171
+ },
+ {
+  "zh": "试试这个。",
+  "pinyin": "shì shì zhè gè",
+  "en": "Try this.",
+  "theme": "daily",
+  "accept": [
+   "试试这个。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1916311",
+   "8715853"
+  ],
+  "wordIds": [
+   121,
+   338,
+   469
+  ],
+  "id": 172
+ },
+ {
+  "zh": "我会打电话给你。",
+  "pinyin": "wǒ huì dǎ diàn huà gěi nǐ",
+  "en": "I'll call you.",
+  "theme": "daily",
+  "accept": [
+   "我会打电话给你。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "624894",
+   "2163111"
+  ],
+  "wordIds": [
+   58,
+   122,
+   160,
+   274,
+   383
+  ],
+  "id": 173
+ },
+ {
+  "zh": "我会回来的。",
+  "pinyin": "wǒ huì huí lai de",
+  "en": "I'll come back.",
+  "theme": "daily",
+  "accept": [
+   "我会回来的。",
+   "我要回来了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "261982",
+   "398080",
+   "512881"
+  ],
+  "wordIds": [
+   70,
+   158,
+   160,
+   383
+  ],
+  "id": 174
+ },
+ {
+  "zh": "他会回来的。",
+  "pinyin": "tā huì huí lai de",
+  "en": "He will come back.",
+  "theme": "daily",
+  "accept": [
+   "他会回来的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "304209",
+   "346717"
+  ],
+  "wordIds": [
+   70,
+   158,
+   160,
+   357
+  ],
+  "id": 175
+ },
+ {
+  "zh": "我会做饭。",
+  "pinyin": "wǒ huì zuò fàn",
+  "en": "I can cook.",
+  "theme": "food",
+  "accept": [
+   "我会做饭。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2245639",
+   "4456369"
+  ],
+  "wordIds": [
+   100,
+   160,
+   383,
+   505
+  ],
+  "id": 176
+ },
+ {
+  "zh": "您会唱歌吗？",
+  "pinyin": "nín huì chàng gē ma",
+  "en": "Can you sing?",
+  "theme": "daily",
+  "accept": [
+   "您会唱歌吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "6358649",
+   "10696069"
+  ],
+  "wordIds": [
+   41,
+   160,
+   229,
+   277
+  ],
+  "id": 177
+ },
+ {
+  "zh": "您会开车吗？",
+  "pinyin": "nín huì kāi chē ma",
+  "en": "Can you drive?",
+  "theme": "daily",
+  "accept": [
+   "您会开车吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69237",
+   "472411"
+  ],
+  "wordIds": [
+   160,
+   190,
+   229,
+   277
+  ],
+  "id": 178
+ },
+ {
+  "zh": "你有车吗？",
+  "pinyin": "nǐ yǒu chē ma",
+  "en": "Do you have a car?",
+  "theme": "daily",
+  "accept": [
+   "你有车吗？",
+   "您有车吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69236",
+   "472404",
+   "710299"
+  ],
+  "wordIds": [
+   42,
+   229,
+   274,
+   444
+  ],
+  "id": 179
+ },
+ {
+  "zh": "您有车吗？",
+  "pinyin": "nín yǒu chē ma",
+  "en": "Do you have a car?",
+  "theme": "daily",
+  "accept": [
+   "您有车吗？",
+   "你有车吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69236",
+   "472404",
+   "710299"
+  ],
+  "wordIds": [
+   42,
+   229,
+   277,
+   444
+  ],
+  "id": 180
+ },
+ {
+  "zh": "你有电视吗？",
+  "pinyin": "nǐ yǒu diàn shì ma",
+  "en": "Do you have a TV?",
+  "theme": "daily",
+  "accept": [
+   "你有电视吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2648849",
+   "4913620"
+  ],
+  "wordIds": [
+   81,
+   229,
+   274,
+   444
+  ],
+  "id": 181
+ },
+ {
+  "zh": "我没时间。",
+  "pinyin": "wǒ méi shí jiān",
+  "en": "I have no time.",
+  "theme": "time",
+  "accept": [
+   "我没时间。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "249910",
+   "782929"
+  ],
+  "wordIds": [
+   234,
+   336,
+   383
+  ],
+  "id": 182
+ },
+ {
+  "zh": "我们没时间。",
+  "pinyin": "wǒ men méi shí jiān",
+  "en": "We have no time.",
+  "theme": "time",
+  "accept": [
+   "我们没时间。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "31348",
+   "335818"
+  ],
+  "wordIds": [
+   234,
+   336,
+   384
+  ],
+  "id": 183
+ },
+ {
+  "zh": "我有一个家。",
+  "pinyin": "wǒ yǒu yī gè jiā",
+  "en": "I have a home.",
+  "theme": "daily",
+  "accept": [
+   "我有一个家。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1786134",
+   "1786136"
+  ],
+  "wordIds": [
+   121,
+   169,
+   383,
+   430,
+   444
+  ],
+  "id": 184
+ },
+ {
+  "zh": "我家很大。",
+  "pinyin": "wǒ jiā hěn dà",
+  "en": "My house is big.",
+  "theme": "daily",
+  "accept": [
+   "我家很大。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "250554",
+   "336235"
+  ],
+  "wordIds": [
+   61,
+   147,
+   169,
+   383
+  ],
+  "id": 185
+ },
+ {
+  "zh": "你们的房间很大。",
+  "pinyin": "nǐ men de fáng jiān hěn dà",
+  "en": "Your room is big.",
+  "theme": "daily",
+  "accept": [
+   "你们的房间很大。",
+   "您的房间很大。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2166207",
+   "2565766",
+   "2565768"
+  ],
+  "wordIds": [
+   61,
+   70,
+   102,
+   147,
+   275
+  ],
+  "id": 186
+ },
+ {
+  "zh": "您的房间很大。",
+  "pinyin": "nín de fáng jiān hěn dà",
+  "en": "Your room is big.",
+  "theme": "daily",
+  "accept": [
+   "您的房间很大。",
+   "你们的房间很大。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2166207",
+   "2565766",
+   "2565768"
+  ],
+  "wordIds": [
+   61,
+   70,
+   102,
+   147,
+   277
+  ],
+  "id": 187
+ },
+ {
+  "zh": "这个房子是我的。",
+  "pinyin": "zhè gè fáng zi shì wǒ de",
+  "en": "This is my house.",
+  "theme": "daily",
+  "accept": [
+   "这个房子是我的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "438990",
+   "955157"
+  ],
+  "wordIds": [
+   70,
+   103,
+   121,
+   339,
+   383,
+   469
+  ],
+  "id": 188
+ },
+ {
+  "zh": "这是我的书。",
+  "pinyin": "zhè shì wǒ de shū",
+  "en": "This is my book.",
+  "theme": "daily",
+  "accept": [
+   "这是我的书。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "334383",
+   "463306"
+  ],
+  "wordIds": [
+   70,
+   339,
+   343,
+   383,
+   469
+  ],
+  "id": 189
+ },
+ {
+  "zh": "这是一本书。",
+  "pinyin": "zhè shì yī běn shū",
+  "en": "This is a book.",
+  "theme": "daily",
+  "accept": [
+   "这是一本书。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "55399",
+   "336921"
+  ],
+  "wordIds": [
+   22,
+   339,
+   343,
+   430,
+   469
+  ],
+  "id": 190
+ },
+ {
+  "zh": "这本书是新的。",
+  "pinyin": "zhè běn shū shì xīn de",
+  "en": "This book's new.",
+  "theme": "daily",
+  "accept": [
+   "这本书是新的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "791383",
+   "967754"
+  ],
+  "wordIds": [
+   22,
+   70,
+   339,
+   343,
+   414,
+   469
+  ],
+  "id": 191
+ },
+ {
+  "zh": "那本书在这里。",
+  "pinyin": "nà běn shū zài zhè lǐ",
+  "en": "The book is here.",
+  "theme": "daily",
+  "accept": [
+   "那本书在这里。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1369202",
+   "2152768"
+  ],
+  "wordIds": [
+   22,
+   257,
+   343,
+   460,
+   472
+  ],
+  "id": 192
+ },
+ {
+  "zh": "看这本书。",
+  "pinyin": "kàn zhè běn shū",
+  "en": "Read this book.",
+  "theme": "daily",
+  "accept": [
+   "看这本书。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "56828",
+   "461535"
+  ],
+  "wordIds": [
+   22,
+   193,
+   343,
+   469
+  ],
+  "id": 193
+ },
+ {
+  "zh": "这是我的。",
+  "pinyin": "zhè shì wǒ de",
+  "en": "This is mine.",
+  "theme": "daily",
+  "accept": [
+   "这是我的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2233709",
+   "4760167"
+  ],
+  "wordIds": [
+   70,
+   339,
+   383,
+   469
+  ],
+  "id": 194
+ },
+ {
+  "zh": "那是我的。",
+  "pinyin": "nà shì wǒ de",
+  "en": "That's mine.",
+  "theme": "daily",
+  "accept": [
+   "那是我的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1841577",
+   "6728904"
+  ],
+  "wordIds": [
+   70,
+   257,
+   339,
+   383
+  ],
+  "id": 195
+ },
+ {
+  "zh": "不是我的。",
+  "pinyin": "bù shì wǒ de",
+  "en": "It's not mine.",
+  "theme": "daily",
+  "accept": [
+   "不是我的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1894573",
+   "5673830"
+  ],
+  "wordIds": [
+   30,
+   70,
+   339,
+   383
+  ],
+  "id": 196
+ },
+ {
+  "zh": "那个包是我的。",
+  "pinyin": "nà gè bāo shì wǒ de",
+  "en": "That bag is mine.",
+  "theme": "daily",
+  "accept": [
+   "那个包是我的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "68476",
+   "486991"
+  ],
+  "wordIds": [
+   15,
+   70,
+   121,
+   257,
+   339,
+   383
+  ],
+  "id": 197
+ },
+ {
+  "zh": "那是我的包。",
+  "pinyin": "nà shì wǒ de bāo",
+  "en": "This is my bag.",
+  "theme": "daily",
+  "accept": [
+   "那是我的包。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "55628",
+   "2040518"
+  ],
+  "wordIds": [
+   15,
+   70,
+   257,
+   339,
+   383
+  ],
+  "id": 198
+ },
+ {
+  "zh": "那是什么？",
+  "pinyin": "nà shì shén me",
+  "en": "What's that?",
+  "theme": "daily",
+  "accept": [
+   "那是什么？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "66989",
+   "465906"
+  ],
+  "wordIds": [
+   257,
+   330,
+   339
+  ],
+  "id": 199
+ },
+ {
+  "zh": "这是谁的？",
+  "pinyin": "zhè shì shéi de",
+  "en": "Whose is it?",
+  "theme": "daily",
+  "accept": [
+   "这是谁的？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "873579",
+   "1314463"
+  ],
+  "wordIds": [
+   70,
+   339,
+   347,
+   469
+  ],
+  "id": 200
+ },
+ {
+  "zh": "你想要什么？",
+  "pinyin": "nǐ xiǎng yào shén me",
+  "en": "What do you want?",
+  "theme": "daily",
+  "accept": [
+   "你想要什么？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1622",
+   "333098"
+  ],
+  "wordIds": [
+   274,
+   330,
+   403,
+   426
+  ],
+  "id": 201
+ },
+ {
+  "zh": "他说了什么？",
+  "pinyin": "tā shuō le shén me",
+  "en": "What did he say?",
+  "theme": "daily",
+  "accept": [
+   "他说了什么？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "28006",
+   "462064"
+  ],
+  "wordIds": [
+   211,
+   330,
+   352,
+   357
+  ],
+  "id": 202
+ },
+ {
+  "zh": "你做了什么？",
+  "pinyin": "nǐ zuò le shén me",
+  "en": "What did you do?",
+  "theme": "daily",
+  "accept": [
+   "你做了什么？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "333012",
+   "1495903"
+  ],
+  "wordIds": [
+   211,
+   274,
+   330,
+   505
+  ],
+  "id": 203
+ },
+ {
+  "zh": "那个男人是谁？",
+  "pinyin": "nà gè nán rén shì shéi",
+  "en": "Who is that man?",
+  "theme": "daily",
+  "accept": [
+   "那个男人是谁？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "67951",
+   "493346"
+  ],
+  "wordIds": [
+   121,
+   257,
+   267,
+   339,
+   347
+  ],
+  "id": 204
+ },
+ {
+  "zh": "那男人是谁？",
+  "pinyin": "nà nán rén shì shéi",
+  "en": "Who's that man?",
+  "theme": "daily",
+  "accept": [
+   "那男人是谁？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1886552",
+   "7773140"
+  ],
+  "wordIds": [
+   257,
+   267,
+   339,
+   347
+  ],
+  "id": 205
+ },
+ {
+  "zh": "谁来了这里？",
+  "pinyin": "shéi lái le zhè lǐ",
+  "en": "Who was here?",
+  "theme": "daily",
+  "accept": [
+   "谁来了这里？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2254890",
+   "6047439"
+  ],
+  "wordIds": [
+   206,
+   211,
+   347,
+   472
+  ],
+  "id": 206
+ },
+ {
+  "zh": "有人来了。",
+  "pinyin": "yǒu rén lái le",
+  "en": "Someone came.",
+  "theme": "daily",
+  "accept": [
+   "有人来了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "908398",
+   "5092398"
+  ],
+  "wordIds": [
+   206,
+   211,
+   308,
+   444
+  ],
+  "id": 207
+ },
+ {
+  "zh": "谁也不知道。",
+  "pinyin": "shéi yě bù zhī dào",
+  "en": "No one knows.",
+  "theme": "daily",
+  "accept": [
+   "谁也不知道。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "449023",
+   "8736993"
+  ],
+  "wordIds": [
+   30,
+   347,
+   427,
+   479
+  ],
+  "id": 208
+ },
+ {
+  "zh": "家里有没有人？",
+  "pinyin": "jiā lǐ yǒu méi yǒu rén",
+  "en": "Is anybody home?",
+  "theme": "daily",
+  "accept": [
+   "家里有没有人？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "276298",
+   "408723"
+  ],
+  "wordIds": [
+   170,
+   238,
+   308,
+   444
+  ],
+  "id": 209
+ },
+ {
+  "zh": "那边有人吗？",
+  "pinyin": "nà bian yǒu rén ma",
+  "en": "Is anybody there?",
+  "theme": "daily",
+  "accept": [
+   "那边有人吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2092551",
+   "5091361"
+  ],
+  "wordIds": [
+   229,
+   258,
+   308,
+   444
+  ],
+  "id": 210
+ },
+ {
+  "zh": "他们都知道。",
+  "pinyin": "tā men dōu zhī dào",
+  "en": "They all knew.",
+  "theme": "daily",
+  "accept": [
+   "他们都知道。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2243022",
+   "9972936"
+  ],
+  "wordIds": [
+   90,
+   358,
+   479
+  ],
+  "id": 211
+ },
+ {
+  "zh": "他们在这里。",
+  "pinyin": "tā men zài zhè lǐ",
+  "en": "They are here.",
+  "theme": "daily",
+  "accept": [
+   "他们在这里。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1561368",
+   "3378278"
+  ],
+  "wordIds": [
+   358,
+   460,
+   472
+  ],
+  "id": 212
+ },
+ {
+  "zh": "我们是朋友。",
+  "pinyin": "wǒ men shì péng you",
+  "en": "We're friends.",
+  "theme": "daily",
+  "accept": [
+   "我们是朋友。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2107346",
+   "5624940"
+  ],
+  "wordIds": [
+   287,
+   339,
+   384
+  ],
+  "id": 213
+ },
+ {
+  "zh": "你们是朋友？",
+  "pinyin": "nǐ men shì péng you",
+  "en": "Are you friends?",
+  "theme": "daily",
+  "accept": [
+   "你们是朋友？",
+   "你们是朋友吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "7787226",
+   "10696113",
+   "10966829"
+  ],
+  "wordIds": [
+   275,
+   287,
+   339
+  ],
+  "id": 214
+ },
+ {
+  "zh": "你们是朋友吗？",
+  "pinyin": "nǐ men shì péng you ma",
+  "en": "Are you friends?",
+  "theme": "daily",
+  "accept": [
+   "你们是朋友吗？",
+   "你们是朋友？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "7787226",
+   "10696113",
+   "10966829"
+  ],
+  "wordIds": [
+   229,
+   275,
+   287,
+   339
+  ],
+  "id": 215
+ },
+ {
+  "zh": "他是你的朋友。",
+  "pinyin": "tā shì nǐ de péng you",
+  "en": "He's your friend.",
+  "theme": "daily",
+  "accept": [
+   "他是你的朋友。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1780049",
+   "2065338"
+  ],
+  "wordIds": [
+   70,
+   274,
+   287,
+   339,
+   357
+  ],
+  "id": 216
+ },
+ {
+  "zh": "我喜欢他们。",
+  "pinyin": "wǒ xǐ huan tā men",
+  "en": "I like them.",
+  "theme": "feelings",
+  "accept": [
+   "我喜欢他们。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2747576",
+   "7771664"
+  ],
+  "wordIds": [
+   358,
+   383,
+   389
+  ],
+  "id": 217
+ },
+ {
+  "zh": "我们喜欢你们。",
+  "pinyin": "wǒ men xǐ huan nǐ men",
+  "en": "We like you.",
+  "theme": "feelings",
+  "accept": [
+   "我们喜欢你们。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "6681958",
+   "8496239"
+  ],
+  "wordIds": [
+   275,
+   384,
+   389
+  ],
+  "id": 218
+ },
+ {
+  "zh": "我喜欢你。",
+  "pinyin": "wǒ xǐ huan nǐ",
+  "en": "I like you.",
+  "theme": "feelings",
+  "accept": [
+   "我喜欢你。",
+   "我喜欢你！"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "410751",
+   "1424394",
+   "9992041"
+  ],
+  "wordIds": [
+   274,
+   383,
+   389
+  ],
+  "id": 219
+ },
+ {
+  "zh": "我喜欢你！",
+  "pinyin": "wǒ xǐ huan nǐ",
+  "en": "I like you.",
+  "theme": "feelings",
+  "accept": [
+   "我喜欢你！",
+   "我喜欢你。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "410751",
+   "1424394",
+   "9992041"
+  ],
+  "wordIds": [
+   274,
+   383,
+   389
+  ],
+  "id": 220
+ },
+ {
+  "zh": "你爱我吗？",
+  "pinyin": "nǐ ài wǒ ma",
+  "en": "Do you love me?",
+  "theme": "feelings",
+  "accept": [
+   "你爱我吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "321497",
+   "10966779"
+  ],
+  "wordIds": [
+   0,
+   229,
+   274,
+   383
+  ],
+  "id": 221
+ },
+ {
+  "zh": "你想我吗？",
+  "pinyin": "nǐ xiǎng wǒ ma",
+  "en": "Do you miss me?",
+  "theme": "daily",
+  "accept": [
+   "你想我吗？",
+   "你想我了？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "334429",
+   "1230779",
+   "4835859"
+  ],
+  "wordIds": [
+   229,
+   274,
+   383,
+   403
+  ],
+  "id": 222
+ },
+ {
+  "zh": "你想我了？",
+  "pinyin": "nǐ xiǎng wǒ le",
+  "en": "Do you miss me?",
+  "theme": "daily",
+  "accept": [
+   "你想我了？",
+   "你想我吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "334429",
+   "1230779",
+   "4835859"
+  ],
+  "wordIds": [
+   211,
+   274,
+   383,
+   403
+  ],
+  "id": 223
+ },
+ {
+  "zh": "我非常想你。",
+  "pinyin": "wǒ fēi cháng xiǎng nǐ",
+  "en": "I miss you badly.",
+  "theme": "feelings",
+  "accept": [
+   "我非常想你。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "18051",
+   "444654"
+  ],
+  "wordIds": [
+   109,
+   274,
+   383,
+   403
+  ],
+  "id": 224
+ },
+ {
+  "zh": "我喜欢您的车。",
+  "pinyin": "wǒ xǐ huan nín de chē",
+  "en": "I like your car.",
+  "theme": "feelings",
+  "accept": [
+   "我喜欢您的车。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "257112",
+   "343424"
+  ],
+  "wordIds": [
+   42,
+   70,
+   277,
+   383,
+   389
+  ],
+  "id": 225
+ },
+ {
+  "zh": "我喜欢你的房间。",
+  "pinyin": "wǒ xǐ huan nǐ de fáng jiān",
+  "en": "I like your room.",
+  "theme": "feelings",
+  "accept": [
+   "我喜欢你的房间。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1807052",
+   "2989999"
+  ],
+  "wordIds": [
+   70,
+   102,
+   274,
+   383,
+   389
+  ],
+  "id": 226
+ },
+ {
+  "zh": "他们是孩子。",
+  "pinyin": "tā men shì hái zi",
+  "en": "They're kids.",
+  "theme": "family",
+  "accept": [
+   "他们是孩子。",
+   "她们是孩子。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2111267",
+   "3579720",
+   "3579729"
+  ],
+  "wordIds": [
+   136,
+   339,
+   358
+  ],
+  "id": 227
+ },
+ {
+  "zh": "她们是孩子。",
+  "pinyin": "tā men shì hái zi",
+  "en": "They're kids.",
+  "theme": "family",
+  "accept": [
+   "她们是孩子。",
+   "他们是孩子。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2111267",
+   "3579720",
+   "3579729"
+  ],
+  "wordIds": [
+   136,
+   339,
+   360
+  ],
+  "id": 228
+ },
+ {
+  "zh": "她十七岁了。",
+  "pinyin": "tā shí qī suì le",
+  "en": "She's seventeen.",
+  "theme": "time",
+  "accept": [
+   "她十七岁了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2765315",
+   "3485499"
+  ],
+  "wordIds": [
+   211,
+   289,
+   334,
+   356,
+   359
+  ],
+  "id": 229
+ },
+ {
+  "zh": "我十二岁了。",
+  "pinyin": "wǒ shí èr suì le",
+  "en": "I'm twelve.",
+  "theme": "time",
+  "accept": [
+   "我十二岁了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2069142",
+   "9959852"
+  ],
+  "wordIds": [
+   99,
+   211,
+   334,
+   356,
+   383
+  ],
+  "id": 230
+ },
+ {
+  "zh": "你有多高？",
+  "pinyin": "nǐ yǒu duō gāo",
+  "en": "How tall are you?",
+  "theme": "daily",
+  "accept": [
+   "你有多高？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "16472",
+   "393593"
+  ],
+  "wordIds": [
+   95,
+   115,
+   274,
+   444
+  ],
+  "id": 231
+ },
+ {
+  "zh": "我非常高。",
+  "pinyin": "wǒ fēi cháng gāo",
+  "en": "I am very tall.",
+  "theme": "daily",
+  "accept": [
+   "我非常高。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "255252",
+   "13523568"
+  ],
+  "wordIds": [
+   109,
+   115,
+   383
+  ],
+  "id": 232
+ },
+ {
+  "zh": "他走路很快。",
+  "pinyin": "tā zǒu lù hěn kuài",
+  "en": "He walks fast.",
+  "theme": "directions",
+  "accept": [
+   "他走路很快。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1257313",
+   "8888278"
+  ],
+  "wordIds": [
+   147,
+   205,
+   357,
+   496
+  ],
+  "id": 233
+ },
+ {
+  "zh": "他慢慢地走。",
+  "pinyin": "tā màn màn dì zǒu",
+  "en": "He walks slowly.",
+  "theme": "directions",
+  "accept": [
+   "他慢慢地走。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "293207",
+   "512111"
+  ],
+  "wordIds": [
+   65,
+   231,
+   357,
+   495
+  ],
+  "id": 234
+ },
+ {
+  "zh": "他说话太快了。",
+  "pinyin": "tā shuō huà tài kuài le",
+  "en": "He talks too fast.",
+  "theme": "daily",
+  "accept": [
+   "他说话太快了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "288819",
+   "4270105"
+  ],
+  "wordIds": [
+   205,
+   211,
+   353,
+   357,
+   361
+  ],
+  "id": 235
+ },
+ {
+  "zh": "来吧，快一点。",
+  "pinyin": "lái ba kuài yī diǎn",
+  "en": "Come on, hurry up.",
+  "theme": "daily",
+  "accept": [
+   "来吧，快一点。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "3549698",
+   "3662930"
+  ],
+  "wordIds": [
+   5,
+   77,
+   205,
+   206,
+   430
+  ],
+  "id": 236
+ },
+ {
+  "zh": "来吧，我们一起去。",
+  "pinyin": "lái ba wǒ men yī qǐ qù",
+  "en": "Come on, let's go.",
+  "theme": "daily",
+  "accept": [
+   "来吧，我们一起去。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "3549699",
+   "3662929"
+  ],
+  "wordIds": [
+   5,
+   206,
+   305,
+   384,
+   436
+  ],
+  "id": 237
+ },
+ {
+  "zh": "我们现在去吧。",
+  "pinyin": "wǒ men xiàn zài qù ba",
+  "en": "Let's go now.",
+  "theme": "daily",
+  "accept": [
+   "我们现在去吧。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "476615",
+   "477190"
+  ],
+  "wordIds": [
+   5,
+   305,
+   384,
+   402
+  ],
+  "id": 238
+ },
+ {
+  "zh": "我们走走吧。",
+  "pinyin": "wǒ men zǒu zǒu ba",
+  "en": "Let's walk.",
+  "theme": "directions",
+  "accept": [
+   "我们走走吧。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2007935",
+   "5897892"
+  ],
+  "wordIds": [
+   5,
+   384,
+   495
+  ],
+  "id": 239
+ },
+ {
+  "zh": "回去工作。",
+  "pinyin": "huí qu gōng zuò",
+  "en": "Go back to work.",
+  "theme": "school",
+  "accept": [
+   "回去工作。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1860718",
+   "13153752"
+  ],
+  "wordIds": [
+   125,
+   159
+  ],
+  "id": 240
+ },
+ {
+  "zh": "明天打电话给我。",
+  "pinyin": "míng tiān dǎ diàn huà gěi wǒ",
+  "en": "Call me tomorrow.",
+  "theme": "time",
+  "accept": [
+   "明天打电话给我。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1493515",
+   "1738150"
+  ],
+  "wordIds": [
+   58,
+   122,
+   251,
+   383
+  ],
+  "id": 241
+ },
+ {
+  "zh": "别忘了我们。",
+  "pinyin": "bié wàng le wǒ men",
+  "en": "Don't forget us.",
+  "theme": "daily",
+  "accept": [
+   "别忘了我们。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2003078",
+   "7769301"
+  ],
+  "wordIds": [
+   25,
+   211,
+   380,
+   384
+  ],
+  "id": 242
+ },
+ {
+  "zh": "不要告诉我。",
+  "pinyin": "bù yào gào su wǒ",
+  "en": "Don't tell me.",
+  "theme": "daily",
+  "accept": [
+   "不要告诉我。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "239720",
+   "9968947"
+  ],
+  "wordIds": [
+   30,
+   117,
+   383,
+   426
+  ],
+  "id": 243
+ },
+ {
+  "zh": "不要说话了。",
+  "pinyin": "bù yào shuō huà le",
+  "en": "Stop talking.",
+  "theme": "daily",
+  "accept": [
+   "不要说话了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "277720",
+   "5092251"
+  ],
+  "wordIds": [
+   30,
+   211,
+   353,
+   426
+  ],
+  "id": 244
+ },
+ {
+  "zh": "开车慢点。",
+  "pinyin": "kāi chē màn diǎn",
+  "en": "Drive slowly.",
+  "theme": "daily",
+  "accept": [
+   "开车慢点。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "30126",
+   "5092212"
+  ],
+  "wordIds": [
+   77,
+   190,
+   231
+  ],
+  "id": 245
+ },
+ {
+  "zh": "现在读这个。",
+  "pinyin": "xiàn zài dú zhè gè",
+  "en": "Read this now.",
+  "theme": "daily",
+  "accept": [
+   "现在读这个。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1841179",
+   "5945152"
+  ],
+  "wordIds": [
+   91,
+   121,
+   402,
+   469
+  ],
+  "id": 246
+ },
+ {
+  "zh": "好好学习。",
+  "pinyin": "hǎo hǎo xué xí",
+  "en": "Study hard.",
+  "theme": "school",
+  "accept": [
+   "好好学习。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "53465",
+   "5092230"
+  ],
+  "wordIds": [
+   139,
+   423
+  ],
+  "id": 247
+ },
+ {
+  "zh": "请笑一笑！",
+  "pinyin": "qǐng xiào yī xiào",
+  "en": "Please smile.",
+  "theme": "daily",
+  "accept": [
+   "请笑一笑！"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1852296",
+   "10617861"
+  ],
+  "wordIds": [
+   299,
+   411,
+   430
+  ],
+  "id": 248
+ },
+ {
+  "zh": "和我们一起来吧。",
+  "pinyin": "hé wǒ men yī qǐ lái ba",
+  "en": "Come with us.",
+  "theme": "daily",
+  "accept": [
+   "和我们一起来吧。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "345794",
+   "433696"
+  ],
+  "wordIds": [
+   5,
+   146,
+   206,
+   384,
+   436
+  ],
+  "id": 249
+ },
+ {
+  "zh": "现在就跟我来。",
+  "pinyin": "xiàn zài jiù gēn wǒ lái",
+  "en": "Come with me now.",
+  "theme": "daily",
+  "accept": [
+   "现在就跟我来。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1553527",
+   "1783795"
+  ],
+  "wordIds": [
+   123,
+   187,
+   206,
+   383,
+   402
+  ],
+  "id": 250
+ },
+ {
+  "zh": "您会告诉我吗？",
+  "pinyin": "nín huì gào su wǒ ma",
+  "en": "Could you tell me?",
+  "theme": "daily",
+  "accept": [
+   "您会告诉我吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1659816",
+   "1663393"
+  ],
+  "wordIds": [
+   117,
+   160,
+   229,
+   277,
+   383
+  ],
+  "id": 251
+ },
+ {
+  "zh": "你能告诉我们。",
+  "pinyin": "nǐ néng gào su wǒ men",
+  "en": "You can tell us.",
+  "theme": "daily",
+  "accept": [
+   "你能告诉我们。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "3199818",
+   "5992376"
+  ],
+  "wordIds": [
+   117,
+   273,
+   274,
+   384
+  ],
+  "id": 252
+ },
+ {
+  "zh": "你是对的吗？",
+  "pinyin": "nǐ shì duì de ma",
+  "en": "Were you right?",
+  "theme": "daily",
+  "accept": [
+   "你是对的吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2254510",
+   "5640753"
+  ],
+  "wordIds": [
+   70,
+   93,
+   229,
+   274,
+   339
+  ],
+  "id": 253
+ },
+ {
+  "zh": "我错了吗？",
+  "pinyin": "wǒ cuò le ma",
+  "en": "Was I wrong?",
+  "theme": "daily",
+  "accept": [
+   "我错了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "25506",
+   "335862"
+  ],
+  "wordIds": [
+   55,
+   211,
+   229,
+   383
+  ],
+  "id": 254
+ },
+ {
+  "zh": "我想错了。",
+  "pinyin": "wǒ xiǎng cuò le",
+  "en": "I was wrong.",
+  "theme": "daily",
+  "accept": [
+   "我想错了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "472431",
+   "2367643"
+  ],
+  "wordIds": [
+   55,
+   211,
+   383,
+   403
+  ],
+  "id": 255
+ },
+ {
+  "zh": "这是我的错。",
+  "pinyin": "zhè shì wǒ de cuò",
+  "en": "I'm to blame.",
+  "theme": "daily",
+  "accept": [
+   "这是我的错。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "790573",
+   "2057759"
+  ],
+  "wordIds": [
+   55,
+   70,
+   339,
+   383,
+   469
+  ],
+  "id": 256
+ },
+ {
+  "zh": "这不是真的。",
+  "pinyin": "zhè bù shì zhēn de",
+  "en": "This is not true.",
+  "theme": "daily",
+  "accept": [
+   "这不是真的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "370573",
+   "409219"
+  ],
+  "wordIds": [
+   30,
+   339,
+   469,
+   476
+  ],
+  "id": 257
+ },
+ {
+  "zh": "是真的吗？",
+  "pinyin": "shì zhēn de ma",
+  "en": "Is it true?",
+  "theme": "daily",
+  "accept": [
+   "是真的吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "378827",
+   "3377988"
+  ],
+  "wordIds": [
+   229,
+   339,
+   476
+  ],
+  "id": 258
+ },
+ {
+  "zh": "真的有用。",
+  "pinyin": "zhēn de yǒu yòng",
+  "en": "It really works.",
+  "theme": "daily",
+  "accept": [
+   "真的有用。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2032690",
+   "9953347"
+  ],
+  "wordIds": [
+   451,
+   476
+  ],
+  "id": 259
+ },
+ {
+  "zh": "这没什么大不了的。",
+  "pinyin": "zhè méi shén me dà bù le de",
+  "en": "It's no big deal.",
+  "theme": "daily",
+  "accept": [
+   "这没什么大不了的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "532854",
+   "2456036"
+  ],
+  "wordIds": [
+   30,
+   61,
+   70,
+   211,
+   236,
+   469
+  ],
+  "id": 260
+ },
+ {
+  "zh": "这不好笑。",
+  "pinyin": "zhè bù hǎo xiào",
+  "en": "It's not funny.",
+  "theme": "daily",
+  "accept": [
+   "这不好笑。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1749344",
+   "1786116"
+  ],
+  "wordIds": [
+   30,
+   139,
+   411,
+   469
+  ],
+  "id": 261
+ },
+ {
+  "zh": "那真是太好了。",
+  "pinyin": "nà zhēn shì tài hǎo le",
+  "en": "That's great.",
+  "theme": "daily",
+  "accept": [
+   "那真是太好了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "462546",
+   "5978354"
+  ],
+  "wordIds": [
+   139,
+   211,
+   257,
+   339,
+   361,
+   475
+  ],
+  "id": 262
+ },
+ {
+  "zh": "真是太好了。",
+  "pinyin": "zhēn shì tài hǎo le",
+  "en": "It's great.",
+  "theme": "daily",
+  "accept": [
+   "真是太好了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "3824325",
+   "5942060"
+  ],
+  "wordIds": [
+   139,
+   211,
+   339,
+   361,
+   475
+  ],
+  "id": 263
+ },
+ {
+  "zh": "看起来不错。",
+  "pinyin": "kàn qǐ lai bù cuò",
+  "en": "It looks good.",
+  "theme": "daily",
+  "accept": [
+   "看起来不错。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1808249",
+   "1808254"
+  ],
+  "wordIds": [
+   30,
+   55,
+   193,
+   292
+  ],
+  "id": 264
+ },
+ {
+  "zh": "这是最好的。",
+  "pinyin": "zhè shì zuì hǎo de",
+  "en": "This is the best.",
+  "theme": "daily",
+  "accept": [
+   "这是最好的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1898091",
+   "5983570"
+  ],
+  "wordIds": [
+   70,
+   339,
+   469,
+   498
+  ],
+  "id": 265
+ },
+ {
+  "zh": "那是很大的。",
+  "pinyin": "nà shì hěn dà de",
+  "en": "That's very big.",
+  "theme": "daily",
+  "accept": [
+   "那是很大的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "450005",
+   "819391"
+  ],
+  "wordIds": [
+   61,
+   70,
+   147,
+   257,
+   339
+  ],
+  "id": 266
+ },
+ {
+  "zh": "这不是新的。",
+  "pinyin": "zhè bù shì xīn de",
+  "en": "This isn't new.",
+  "theme": "daily",
+  "accept": [
+   "这不是新的。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2233758",
+   "10260739"
+  ],
+  "wordIds": [
+   30,
+   70,
+   339,
+   414,
+   469
+  ],
+  "id": 267
+ },
+ {
+  "zh": "汽车准备好了。",
+  "pinyin": "qì chē zhǔn bèi hǎo le",
+  "en": "The car is ready.",
+  "theme": "daily",
+  "accept": [
+   "汽车准备好了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "46819",
+   "782343"
+  ],
+  "wordIds": [
+   139,
+   211,
+   293,
+   491
+  ],
+  "id": 268
+ },
+ {
+  "zh": "这个没人要。",
+  "pinyin": "zhè gè méi rén yào",
+  "en": "Nobody wants it.",
+  "theme": "daily",
+  "accept": [
+   "这个没人要。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "672179",
+   "6799704"
+  ],
+  "wordIds": [
+   121,
+   234,
+   308,
+   426,
+   469
+  ],
+  "id": 269
+ },
+ {
+  "zh": "没有人高兴。",
+  "pinyin": "méi yǒu rén gāo xìng",
+  "en": "Nobody's happy.",
+  "theme": "feelings",
+  "accept": [
+   "没有人高兴。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2044394",
+   "12687087"
+  ],
+  "wordIds": [
+   116,
+   238,
+   308
+  ],
+  "id": 270
+ },
+ {
+  "zh": "人人都好。",
+  "pinyin": "rén rén dōu hǎo",
+  "en": "Everybody is fine.",
+  "theme": "daily",
+  "accept": [
+   "人人都好。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1495895",
+   "5863313"
+  ],
+  "wordIds": [
+   90,
+   139,
+   308
+  ],
+  "id": 271
+ },
+ {
+  "zh": "大家笑了。",
+  "pinyin": "dà jiā xiào le",
+  "en": "Everybody laughed.",
+  "theme": "daily",
+  "accept": [
+   "大家笑了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "22132",
+   "762992"
+  ],
+  "wordIds": [
+   61,
+   169,
+   211,
+   411
+  ],
+  "id": 272
+ },
+ {
+  "zh": "大家都还行。",
+  "pinyin": "dà jiā dōu hái xíng",
+  "en": "Everyone was OK.",
+  "theme": "daily",
+  "accept": [
+   "大家都还行。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "4401086",
+   "5091089"
+  ],
+  "wordIds": [
+   61,
+   90,
+   133,
+   169,
+   419
+  ],
+  "id": 273
+ },
+ {
+  "zh": "他们都爱我。",
+  "pinyin": "tā men dōu ài wǒ",
+  "en": "They all love me.",
+  "theme": "feelings",
+  "accept": [
+   "他们都爱我。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2549274",
+   "9972460"
+  ],
+  "wordIds": [
+   0,
+   90,
+   358,
+   383
+  ],
+  "id": 274
+ },
+ {
+  "zh": "他们不帮忙。",
+  "pinyin": "tā men bù bāng máng",
+  "en": "They don't help.",
+  "theme": "daily",
+  "accept": [
+   "他们不帮忙。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2243102",
+   "7781732"
+  ],
+  "wordIds": [
+   14,
+   30,
+   358
+  ],
+  "id": 275
+ },
+ {
+  "zh": "我们明白。",
+  "pinyin": "wǒ men míng bai",
+  "en": "We understand.",
+  "theme": "daily",
+  "accept": [
+   "我们明白。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1893706",
+   "5102318"
+  ],
+  "wordIds": [
+   249,
+   384
+  ],
+  "id": 276
+ },
+ {
+  "zh": "我们笑了。",
+  "pinyin": "wǒ men xiào le",
+  "en": "We laughed.",
+  "theme": "daily",
+  "accept": [
+   "我们笑了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1922452",
+   "5092668"
+  ],
+  "wordIds": [
+   211,
+   384,
+   411
+  ],
+  "id": 277
+ },
+ {
+  "zh": "我们知道。",
+  "pinyin": "wǒ men zhī dào",
+  "en": "We know.",
+  "theme": "daily",
+  "accept": [
+   "我们知道。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1556167",
+   "5102291"
+  ],
+  "wordIds": [
+   384,
+   479
+  ],
+  "id": 278
+ },
+ {
+  "zh": "我做到了！",
+  "pinyin": "wǒ zuò dào le",
+  "en": "I did it.",
+  "theme": "daily",
+  "accept": [
+   "我做到了！"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2549832",
+   "8709238"
+  ],
+  "wordIds": [
+   64,
+   211,
+   383,
+   505
+  ],
+  "id": 279
+ },
+ {
+  "zh": "我回来了！",
+  "pinyin": "wǒ huí lai le",
+  "en": "I'm back.",
+  "theme": "daily",
+  "accept": [
+   "我回来了！"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "564159",
+   "10153684"
+  ],
+  "wordIds": [
+   158,
+   211,
+   383
+  ],
+  "id": 280
+ },
+ {
+  "zh": "你做到了。",
+  "pinyin": "nǐ zuò dào le",
+  "en": "You made it.",
+  "theme": "daily",
+  "accept": [
+   "你做到了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2549800",
+   "8215696"
+  ],
+  "wordIds": [
+   64,
+   211,
+   274,
+   505
+  ],
+  "id": 281
+ },
+ {
+  "zh": "你在这里。",
+  "pinyin": "nǐ zài zhè lǐ",
+  "en": "You're here.",
+  "theme": "daily",
+  "accept": [
+   "你在这里。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2202941",
+   "7768155"
+  ],
+  "wordIds": [
+   274,
+   460,
+   472
+  ],
+  "id": 282
+ },
+ {
+  "zh": "我觉得很热。",
+  "pinyin": "wǒ jué de hěn rè",
+  "en": "I'm hot.",
+  "theme": "weather",
+  "accept": [
+   "我觉得很热。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "455953",
+   "489080"
+  ],
+  "wordIds": [
+   147,
+   188,
+   307,
+   383
+  ],
+  "id": 283
+ },
+ {
+  "zh": "我觉得冷。",
+  "pinyin": "wǒ jué de lěng",
+  "en": "I feel cold.",
+  "theme": "weather",
+  "accept": [
+   "我觉得冷。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "21124",
+   "352054"
+  ],
+  "wordIds": [
+   188,
+   213,
+   383
+  ],
+  "id": 284
+ },
+ {
+  "zh": "我真的冷。",
+  "pinyin": "wǒ zhēn de lěng",
+  "en": "I'm very cold.",
+  "theme": "weather",
+  "accept": [
+   "我真的冷。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2267240",
+   "6065730"
+  ],
+  "wordIds": [
+   213,
+   383,
+   476
+  ],
+  "id": 285
+ },
+ {
+  "zh": "你不冷吗？",
+  "pinyin": "nǐ bù lěng ma",
+  "en": "Aren't you cold?",
+  "theme": "weather",
+  "accept": [
+   "你不冷吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2244975",
+   "8673739"
+  ],
+  "wordIds": [
+   30,
+   213,
+   229,
+   274
+  ],
+  "id": 286
+ },
+ {
+  "zh": "你不热吗？",
+  "pinyin": "nǐ bù rè ma",
+  "en": "Aren't you hot?",
+  "theme": "weather",
+  "accept": [
+   "你不热吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "2951539",
+   "4956714"
+  ],
+  "wordIds": [
+   30,
+   229,
+   274,
+   307
+  ],
+  "id": 287
+ },
+ {
+  "zh": "我不高兴。",
+  "pinyin": "wǒ bù gāo xìng",
+  "en": "I am not happy.",
+  "theme": "feelings",
+  "accept": [
+   "我不高兴。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "3378133",
+   "3378134"
+  ],
+  "wordIds": [
+   30,
+   116,
+   383
+  ],
+  "id": 288
+ },
+ {
+  "zh": "你现在高兴吗？",
+  "pinyin": "nǐ xiàn zài gāo xìng ma",
+  "en": "Are you happy now?",
+  "theme": "feelings",
+  "accept": [
+   "你现在高兴吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "971988",
+   "5983647"
+  ],
+  "wordIds": [
+   116,
+   229,
+   274,
+   402
+  ],
+  "id": 289
+ },
+ {
+  "zh": "您生气了吗？",
+  "pinyin": "nín shēng qì le ma",
+  "en": "Are you mad?",
+  "theme": "feelings",
+  "accept": [
+   "您生气了吗？",
+   "你生气了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "18965",
+   "476597",
+   "476598"
+  ],
+  "wordIds": [
+   211,
+   229,
+   277,
+   332
+  ],
+  "id": 290
+ },
+ {
+  "zh": "你生气了吗？",
+  "pinyin": "nǐ shēng qì le ma",
+  "en": "Are you mad?",
+  "theme": "feelings",
+  "accept": [
+   "你生气了吗？",
+   "您生气了吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "18965",
+   "476597",
+   "476598"
+  ],
+  "wordIds": [
+   211,
+   229,
+   274,
+   332
+  ],
+  "id": 291
+ },
+ {
+  "zh": "你在难过吗？",
+  "pinyin": "nǐ zài nán guò ma",
+  "en": "Are you sad?",
+  "theme": "feelings",
+  "accept": [
+   "你在难过吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1755584",
+   "8775843"
+  ],
+  "wordIds": [
+   132,
+   229,
+   271,
+   274,
+   460
+  ],
+  "id": 292
+ },
+ {
+  "zh": "她跟我生气了。",
+  "pinyin": "tā gēn wǒ shēng qì le",
+  "en": "She is mad at me.",
+  "theme": "feelings",
+  "accept": [
+   "她跟我生气了。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "6130",
+   "423363"
+  ],
+  "wordIds": [
+   123,
+   211,
+   332,
+   359,
+   383
+  ],
+  "id": 293
+ },
+ {
+  "zh": "她认识我。",
+  "pinyin": "tā rèn shi wǒ",
+  "en": "She knows me.",
+  "theme": "daily",
+  "accept": [
+   "她认识我。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "314454",
+   "4970146"
+  ],
+  "wordIds": [
+   309,
+   359,
+   383
+  ],
+  "id": 294
+ },
+ {
+  "zh": "我认识你儿子。",
+  "pinyin": "wǒ rèn shi nǐ ér zi",
+  "en": "I know your son.",
+  "theme": "family",
+  "accept": [
+   "我认识你儿子。"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1841674",
+   "10182738"
+  ],
+  "wordIds": [
+   98,
+   274,
+   309,
+   383
+  ],
+  "id": 295
+ },
+ {
+  "zh": "你认识他吗?",
+  "pinyin": "nǐ rèn shi tā ma",
+  "en": "Do you know him?",
+  "theme": "daily",
+  "accept": [
+   "你认识他吗?",
+   "你认识他吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69003",
+   "431556",
+   "10966855"
+  ],
+  "wordIds": [
+   229,
+   274,
+   309,
+   357
+  ],
+  "id": 296
+ },
+ {
+  "zh": "你认识他吗？",
+  "pinyin": "nǐ rèn shi tā ma",
+  "en": "Do you know him?",
+  "theme": "daily",
+  "accept": [
+   "你认识他吗？",
+   "你认识他吗?"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "69003",
+   "431556",
+   "10966855"
+  ],
+  "wordIds": [
+   229,
+   274,
+   309,
+   357
+  ],
+  "id": 297
+ },
+ {
+  "zh": "他是日本人吗？",
+  "pinyin": "tā shì rì běn rén ma",
+  "en": "Is he Japanese?",
+  "theme": "daily",
+  "accept": [
+   "他是日本人吗？"
+  ],
+  "glosses": [],
+  "source": "tatoeba",
+  "ref": [
+   "1123762",
+   "1366051"
+  ],
+  "wordIds": [
+   22,
+   229,
+   308,
+   311,
+   339,
+   357
+  ],
+  "id": 298
+ }
+]

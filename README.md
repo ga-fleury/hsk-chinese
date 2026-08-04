@@ -6,6 +6,7 @@ A React Native (Expo) app for learning the **HSK 1 vocabulary — HSK 3.0 Band 1
 
 - **🎴 Review** — flashcards scheduled by the classic **SM-2** algorithm (Again / Hard / Good / Easy). New words are introduced at a configurable daily rate (default 10/day).
 - **❓ Quiz** — four practice modes: 汉字→English, English→汉字, Pīnyīn→汉字, and **listening** (the word is spoken via Chinese text-to-speech). Quizzes never touch your review schedule.
+- **✍️ Translate** — read an everyday phrase in English and type it in Chinese characters, the way HSK 1 textbook exercises work. 299 phrases across ten themes; answers are auto-graded against accepted variants with an "I was right" override for valid answers the dataset didn't anticipate. Phrases whose words you've studied come up more often, and ones you miss come back sooner.
 - **📖 Words** — browse and search all 506 words by hanzi, tone-insensitive pinyin (`nihao` finds 你好), or English. Tap any row to hear it.
 - **🏠 Home** — due/new counts, words known, quiz accuracy, and settings.
 
@@ -25,8 +26,22 @@ Scan the QR code with the [Expo Go](https://expo.dev/go) app on your phone (or p
 This project was planned with the [`grill-with-docs`](https://github.com/mattpocock/skills) skill — decisions were interrogated one at a time and captured as they resolved:
 
 - [`CONTEXT.md`](./CONTEXT.md) — the project glossary (ubiquitous language)
-- [`docs/adr/`](./docs/adr) — architectural decision records: [HSK 3.0 Band 1 vocabulary](./docs/adr/0001-hsk30-band1-vocabulary.md), [SM-2 scheduler](./docs/adr/0002-sm2-scheduler.md), [on-device persistence](./docs/adr/0003-on-device-persistence.md), [Expo managed workflow](./docs/adr/0004-expo-managed-workflow.md)
+- [`docs/adr/`](./docs/adr) — architectural decision records: [HSK 3.0 Band 1 vocabulary](./docs/adr/0001-hsk30-band1-vocabulary.md), [SM-2 scheduler](./docs/adr/0002-sm2-scheduler.md), [on-device persistence](./docs/adr/0003-on-device-persistence.md), [Expo managed workflow](./docs/adr/0004-expo-managed-workflow.md), [Translation exercise](./docs/adr/0005-translation-exercise.md)
 
 ## Vocabulary data
 
 `src/data/hsk1.json` is derived from [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) (MIT © Yanis Zafirópulos), which itself draws on CC-CEDICT. For 75 words with multiple readings (e.g. 好 hǎo/hào, 还 hái/huán), the beginner-intended reading and a concise gloss were hand-curated.
+
+## Phrase data
+
+`src/data/phrases.json` is built by [`scripts/build_phrases.py`](./scripts/build_phrases.py) and has two provenances:
+
+- **80 hand-authored phrases**, grouped by theme. These may use words outside HSK 1 (咖啡, 银行, 作业…), and the build fails unless every such word carries a gloss shown to the learner.
+- **219 phrases curated from [Tatoeba](https://tatoeba.org)**, used under **CC-BY 2.0 (France)**. Each carries the contributing Tatoeba sentence ids in its `ref` field. These are filtered to sentences that segment entirely into HSK 1 words, so they never need a gloss.
+
+To rebuild:
+
+```sh
+curl -O https://www.manythings.org/anki/cmn-eng.zip && unzip cmn-eng.zip
+python3 scripts/build_phrases.py cmn.txt
+```

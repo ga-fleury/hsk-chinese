@@ -6,15 +6,17 @@ import BrowseScreen from './src/screens/BrowseScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import QuizScreen from './src/screens/QuizScreen';
 import ReviewScreen from './src/screens/ReviewScreen';
+import TranslateScreen from './src/screens/TranslateScreen';
 import { StoreProvider, useStore } from './src/store/store';
 import { colors } from './src/theme';
 
-type Tab = 'home' | 'review' | 'quiz' | 'browse';
+type Tab = 'home' | 'review' | 'quiz' | 'translate' | 'browse';
 
 const TABS: { tab: Tab; label: string; icon: string }[] = [
   { tab: 'home', label: 'Home', icon: '🏠' },
   { tab: 'review', label: 'Review', icon: '🎴' },
   { tab: 'quiz', label: 'Quiz', icon: '❓' },
+  { tab: 'translate', label: 'Translate', icon: '✍️' },
   { tab: 'browse', label: 'Words', icon: '📖' },
 ];
 
@@ -36,6 +38,7 @@ function Root() {
         {tab === 'home' && <HomeScreen onStartReview={() => setTab('review')} />}
         {tab === 'review' && <ReviewScreen />}
         {tab === 'quiz' && <QuizScreen />}
+        {tab === 'translate' && <TranslateScreen />}
         {tab === 'browse' && <BrowseScreen />}
       </View>
       <View style={styles.tabBar}>

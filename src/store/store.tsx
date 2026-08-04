@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { WORDS } from '../data/words';
 import { isDue, newProgress, review, todayString } from '../srs/sm2';
+import { nextProgress } from '../translate/grade';
 import type { AppState, Grade } from '../types';
 
 const STORAGE_KEY = 'hsk1:v1';
@@ -12,6 +13,7 @@ const DEFAULT_STATE: AppState = {
   settings: { newPerDay: 10 },
   introduced: { date: todayString(), count: 0 },
   shuffleSeed: 0,
+  phraseProgress: {},
 };
 
 const randomSeed = () => Math.floor(Math.random() * 0x7fffffff) + 1;
@@ -25,6 +27,7 @@ interface Store {
   newIds: number[];
   gradeWord: (id: number, grade: Grade) => void;
   recordQuizAnswer: (correct: boolean) => void;
+  recordAttempt: (phraseId: number, correct: boolean) => void;
   setNewPerDay: (n: number) => void;
   resetProgress: () => void;
 }
@@ -97,6 +100,14 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
           quizStats: {
             answered: s.quizStats.answered + 1,
             correct: s.quizStats.correct + (correct ? 1 : 0),
+          },
+        })),
+      recordAttempt: (phraseId, correct) =>
+        setState((s) => ({
+          ...s,
+          phraseProgress: {
+            ...s.phraseProgress,
+            [phraseId]: nextProgress(s.phraseProgress[phraseId], correct),
           },
         })),
       setNewPerDay: (n) =>
